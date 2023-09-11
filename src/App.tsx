@@ -17,7 +17,7 @@ function App () {
 						<span style={{backgroundImage: 'url("src/assets/pointright.png")'}} className="cursor-poiner h-[40px] w-[40px] bg-no-repeat bg-contain inline-block text-center ml-3" />
 						<span className="ml-4">
 							<a className="test border-b-2 border-[#007bff]" href="mailto:" target="_blank">
-								ferbionIT@gmail.com
+								it.ferbion@gmail.com
 							</a>
 						</span>
 					</h3>
