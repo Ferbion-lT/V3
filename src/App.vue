@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg-[#404040] w-full h-screen">
-      <div class="text-[#58a6ff] uppercase">
+      <div class="text-[#58a6ff] uppercase font-bold text-6xl text-center pt-5">
         <h2>Ferbion</h2>
       </div>
     </div>
