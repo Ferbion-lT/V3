@@ -71,7 +71,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 95vh;
+	height: 80vh;
 }
 
 .slider {
@@ -79,8 +79,10 @@
 	margin: auto;
 	overflow: hidden;
 	position: relative;
-	width: 85%;
+	width: 100%;
 	display: flex;
+	background-color: #0f0f0f;
+	color: white;
 }
 
 .slider .slide-track {
