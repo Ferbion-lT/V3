@@ -52,11 +52,13 @@
 			<div class="slide">
 				<div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px]">
 					<span class="text-[#01a7ee] text-3xl font-bold">+580</span><br>
-					<span class="text-white">Hourse Of Work</span>
+					<span class="text-white">Hours Of Work</span>
 				</div>
 			</div>			
 			<div class="slide">
-				<img src="img/Green-Lantern.png" />
+				<div class="h-[175px] w-[475px] flex items-center">
+					<span class="text-2xl">-- We Do Our Best For Happy Customers --</span>
+				</div>
 			</div>
 		</div>
 	</div>
