@@ -15,7 +15,7 @@
       </ul>
     </div>
     <div class="relative mt-[-1.6%]">
-      <img class="h-[90px] w-[190px" src="../assets/Logo.png"> 
+      <img class="h-[90px] w-[190px]" src="../assets/Logo.png"> 
     </div>
     <div class="">
       <ul class="flex flex-row gap-10 pl-[150px]">
@@ -46,7 +46,7 @@
    </div>
    </div>
    <div class="absolute ml-[20%] mt-[-5%]">
-    <img class="h-[1000px] w-[2000px]" src="../assets/Mockup.png">
+    <img class="h-[1000px] w-[2000px]" src="../assets/Mockup2.png">
    </div>
    </div>
   </div>
