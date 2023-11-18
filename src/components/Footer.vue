@@ -8,51 +8,51 @@
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center">
                     <img class="h-[25px] w-[25px]" src="../assets/Icons/instagram.png" />
                 </div>
-                <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-                    <img src="../assets/Icons/youtube.png" />
+                <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center">
+                    <img class="h-[35px] w-[35px]" src="../assets/Icons/youtube.png" />
                 </div>
-                <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-                    <img src="../assets/Icons/tik-tok.png" />
+                <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center">
+                    <img class="h-[25px] w-[25px]" src="../assets/Icons/tik-tok.png" />
                 </div>
-                <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-                    <img src="../assets/Icons/twitter.png">
+                <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center">
+                    <img class="h-[25px] w-[25px]" src="../assets/Icons/twitter.png">
                 </div>
-                <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-                    <img src="../assets/Icons/facebook-app-symbol.png">
+                <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center">
+                    <img class="h-[25px] w-[25px]" src="../assets/Icons/facebook-app-symbol.png">
                 </div>
             </div>
         </div>
     </div>
     <div class="bg-[#191d1e] flex justify-center gap-[250px]">
         <div class="flex flex-col">
-            <div class="border-l-2 border-[#01a7ee]">
+            <div class="border-l-2 border-[#01a7ee] pl-4">
                 <ul>
                     <li class="list-none">
-                        <a class="text-[#515151]">Impressum</a>
+                        <a class="text-[#515151] underline">Impressum</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151]">Datenschutz</a>
+                        <a class="text-[#515151] underline">Datenschutz</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151]">Privatsphäre</a>
+                        <a class="text-[#515151] underline">Privatsphäre</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151]">Cookies</a>
+                        <a class="text-[#515151] underline">Cookies</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="flex flex-col">
-            <div class="border-r-2 border-[#01a7ee]">
+            <div class="border-r-2 border-[#01a7ee] pr-4">
                 <ul>
                     <li class="list-none">
-                        <a class="text-[#515151]">Home</a>
+                        <a class="text-[#515151] underline">Home</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151]">About us</a>
+                        <a class="text-[#515151] underline">About us</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151]">Projects</a>
+                        <a class="text-[#515151] underline">Projects</a>
                     </li>
                     <li class="list-none">
                         <a class="text-[#515151] underline">Contact</a>
