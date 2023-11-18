@@ -5,20 +5,20 @@
                 <span class="uppercase text-[#515151] font-bold text-5xl">follow us!</span>
             </div>
             <div class="flex flex-row gap-5 pt-[25px]">
-                <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-
+                <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center">
+                    <img class="h-[25px] w-[25px]" src="../assets/Icons/instagram.png" />
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-
+                    <img src="../assets/Icons/youtube.png" />
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-
+                    <img src="../assets/Icons/tik-tok.png" />
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-
+                    <img src="../assets/Icons/twitter.png">
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151]">
-
+                    <img src="../assets/Icons/facebook-app-symbol.png">
                 </div>
             </div>
         </div>
