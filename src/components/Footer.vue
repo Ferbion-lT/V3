@@ -23,21 +23,21 @@
             </div>
         </div>
     </div>
-    <div class="bg-[#191d1e] flex justify-center gap-[250px]">
+    <div class="bg-[#191d1e] flex justify-center gap-[850px]">
         <div class="flex flex-col">
             <div class="border-l-2 border-[#01a7ee] pl-4">
                 <ul>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">Impressum</a>
+                        <a class="text-[#515151] underline text-lg">Impressum</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">Datenschutz</a>
+                        <a class="text-[#515151] underline text-lg">Datenschutz</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">Privatsphäre</a>
+                        <a class="text-[#515151] underline text-lg">Privatsphäre</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">Cookies</a>
+                        <a class="text-[#515151] underline text-lg">Cookies</a>
                     </li>
                 </ul>
             </div>
@@ -46,19 +46,24 @@
             <div class="border-r-2 border-[#01a7ee] pr-4">
                 <ul>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">Home</a>
+                        <a class="text-[#515151] underline text-xl">Home</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">About us</a>
+                        <a class="text-[#515151] underline text-lg">About us</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">Projects</a>
+                        <a class="text-[#515151] underline text-lg">Projects</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline">Contact</a>
+                        <a class="text-[#515151] underline text-lg">Contact</a>
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+    <div class="bg-[#191d1e] flex justify-center">
+        <div class="bg-[#272d30] w-[200px] flex justify-center rounded-t-[15px]">
+            <img class="h-[75px]" src="../assets/Logo.png" />
         </div>
     </div>
 </template>
