@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#191d1e] flex justify-center">
         <div class="flex flex-col border-t-2 border-[#01a7ee]">
-            <div class="pt-[75px] text-center">
+            <div class="pt-[100px] text-center">
                 <span class="uppercase text-[#515151] font-bold text-5xl">follow us!</span>
             </div>
             <div class="flex flex-row gap-5 pt-[25px]">
