@@ -71,10 +71,10 @@
 
                         </div>
                         <div class="flex flex-col pl-[15px]">
-                            <span class="text-xl">Linus Ehle</span>
+                            <span class="text-xl">Ben Luca Gering</span>
                             <div class="flex">
                                 <img>
-                                <span class="text-base">Stuttgart, Germany</span>
+                                <span class="text-base">Colegne, Germany</span>
                             </div>
                         </div>
                         <div class="flex flex-row pl-[15px]">
