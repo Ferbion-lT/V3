@@ -3,16 +3,16 @@
         <div class="">
 
         </div>
-        <div class="flex flex-row">
-            <div class="flex flex-col">
-                <div class="bg-[#272d30]">
-                    <div>
-                        <img class="" src="../assets/create.png" />
+        <div class="flex flex-row justify-center">
+            <div class="flex flex-col gap-[50px] items-center">
+                <div class="bg-[#272d30] rounded-[15px] text-center h-[400px] w-[300px] flex flex-col items-center justify-center gap-10">
+                    <div class="flex justify-center">
+                        <img class="h-[125px]" src="../assets/create.png" />
                     </div>
                     <div>
-                        <span class="text-[#01a7ee] font-bold">Create</span>
+                        <span class="text-[#01a7ee] font-bold text-4xl">Create</span>
                     </div>
-                    <div>
+                    <div class="text-[#adadad]">
                         <span>Are you expanding your business or<br>
                         do you need a website as an artist?<br>
                         Then you've come to the right place.
