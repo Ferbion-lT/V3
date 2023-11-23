@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-[#191d1e] flex justify-center gap-[850px]">
+    <div class="bg-[#191d1e] flex justify-center gap-[850px] pb-[75px]">
         <div class="flex flex-col">
             <div class="border-l-2 border-[#01a7ee] pl-4">
                 <ul>
