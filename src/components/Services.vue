@@ -19,7 +19,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="bg-[]">
+                <div class="bg-[#e69700] rounded-[15px] h-[50px] w-[125px] text-2xl text-[#272d30] flex items-center justify-center">
                     <span class="font-bold uppercase">create</span>
                 </div>
             </div>
