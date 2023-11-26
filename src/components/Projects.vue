@@ -30,7 +30,7 @@
         <div class="pt-[250px] flex justify-center">
             <span class="text-[#01a7ee] font-bold text-4xl text-center">4 Years <span class="text-white">Of Development<br>Experience</span></span>
         </div>
-        <div class="pt-[100px flex flex-col justify-center gap-[250px] pt-[250px] pb-[200px]">
+        <div class="pt-[100px flex flex-col justify-center gap-[250px] pt-[250px] pb-[200px] sm:flex-row">
             <div class="flex flex-col gap-4">
                 <div class="text-center">
                     <span class="text-white font-bold text-4xl uppercase">name</span>
