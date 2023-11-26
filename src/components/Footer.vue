@@ -23,8 +23,8 @@
             </div>
         </div>
     </div>
-    <div class="bg-[#191d1e] flex justify-center gap-[850px] pb-[75px]">
-        <div class="flex flex-col">
+    <div class="bg-[#191d1e] flex justify-center pt-10 gap-[35%] pb-[75px]">
+        <div class="flex flex-col justify-center">
             <div class="border-l-2 border-[#01a7ee] pl-4">
                 <ul>
                     <li class="list-none">
@@ -42,7 +42,7 @@
                 </ul>
             </div>
         </div>
-        <div class="flex flex-col">
+        <div class="flex flex-col justify-center">
             <div class="border-r-2 border-[#01a7ee] pr-4">
                 <ul>
                     <li class="list-none">
