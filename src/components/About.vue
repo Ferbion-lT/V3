@@ -1,10 +1,10 @@
 <template>
-    <div class="bg-[#272d30] pb-[100px]">   
+    <div class="bg-[#272d30] pb-[100px]">
+        <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
+            <span class="text-[#01a7ee] uppercase font-bold text-xl">about us</span>
+        </div>   
         <div class="flex flex-col justify-center gap-[500px] sm:flex-row">
             <div class="flex flex-col justify-center">
-                <div class="pt-[50px] text-center">
-                    <span class="text-[#01a7ee] uppercase font-bold text-xl">about us</span>
-                </div>
                 <div class="pt-[50px] text-center">
                     <span class="text-white font-bold text-4xl">A team with a true<br><span class="text-[#01a7ee]">friendship </span>behind it</span>
                 </div>
