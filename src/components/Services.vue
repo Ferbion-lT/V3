@@ -1,12 +1,12 @@
 <template>
     <div class="bg-[#191d1e] pb-[100px]">
-        <div class="pt-[50px] pl-[100px]">
+        <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">services</span>
         </div>
         <div class="pt-[100px] pb-[75px] flex justify-center">
             <span class="text-white uppercase font-bold text-4xl">our services</span>
         </div>
-        <div class="flex flex-row justify-center gap-[250px]">
+        <div class="flex flex-col justify-center gap-[250px] sm:flex-row">
             <div class="flex flex-col gap-[50px] items-center">
                 <div class="bg-[#272d30] rounded-[15px] text-center h-[400px] w-[300px] flex flex-col items-center justify-center gap-10">
                     <div class="flex justify-center">
