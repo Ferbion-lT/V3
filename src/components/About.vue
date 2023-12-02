@@ -9,11 +9,9 @@
                     <span class="text-white font-bold text-4xl">Ein Team hinter dem<br><span class="text-[#01a7ee]">Freundschaft </span>steht</span>
                 </div>
                 <div class="pt-[50px] text-left">
-                    <span class="text-white text-xl">Seit 2019 haben wir uns tief in
-                    die Bereiche der Webentwicklung<br> und des Webdesigns vertieft,
-                    und sind<br> dort seitdem begeistert aktiv.<br>
-                    Durch unsere Leidenschaft und Hingabe<br> haben wir uns einen<br>
-                    festen Platz in den Welten der Webentwicklung und<br> des Webdesigns geschaffen
+                    <span class="text-white text-xl">Seit 2019 sind wir in den Welten der Webentwicklung und des Webdesign untwegs.
+                    Wenn Sie mehr erfahren möchtest, freuen wir
+                    uns auf deine Kontaktaufnahme! ;)
                 </span>
             </div>
             <div class="flex justify-center pt-[75px]">
@@ -52,7 +50,7 @@
                 <div class="bg-white h-[175px] w-[400px] rounded-[15px]"></div>
             </div>
             <div class="flex flex-col gap-8 text-center">
-                <span class="text-white font-bold text-4xl text-center sm:text-right">Bringen Sie ihr Buisness <br>auf das <span class="text-[#01a7ee] font-bold"> nächste Level</span></span>
+                <span class="text-white font-bold text-4xl text-center sm:text-right">Bringen Sie ihr Business <br>auf das <span class="text-[#01a7ee] font-bold"> nächste Level</span></span>
                 <span class="text-white text-xl text-center sm:text-right">Sie brauchen neue Kunden oder brauchen einen neuen Look?<br>
                 Wir gestalten Ihre Website modern und interessant!
                 </span>
