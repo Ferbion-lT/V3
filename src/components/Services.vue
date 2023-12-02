@@ -7,7 +7,7 @@
             <span class="text-white uppercase font-bold text-4xl">our services</span>
         </div>
         <div class="flex flex-col justify-center gap-[250px] sm:flex-row">
-            <div class="flex flex-col gap-[50px] items-center hover:scale-110 duration-300 transition">
+            <div class="flex flex-col gap-[50px] items-center lg:hover:scale-110 duration-300 transition">
                 <div class="bg-[#272d30] rounded-[15px] text-center h-[400px] w-[300px] flex flex-col items-center justify-center gap-10">
                     <div class="flex justify-center">
                         <img class="h-[125px]" src="../assets/create.png" />
@@ -22,11 +22,11 @@
                         </span>
                     </div>
                 </div>
-                <a><div class="bg-[#e69700] rounded-[15px] h-[50px] w-[125px] text-2xl text-[#272d30] flex items-center justify-center hover:scale-110 hover:text-white transition duration-150">
+                <a><div class="bg-[#e69700] rounded-[15px] h-[50px] w-[125px] text-2xl text-[#272d30] flex items-center justify-center lg:hover:scale-110 hover:text-white transition duration-150">
                     <span class="font-bold uppercase">create</span>
                 </div></a>
             </div>
-            <div class="flex flex-col gap-[50px] items-center hover:scale-110 duration-300 transition">
+            <div class="flex flex-col gap-[50px] items-center lg:hover:scale-110 duration-300 transition">
                 <div class="bg-[#272d30] rounded-[15px] text-center h-[400px] w-[300px] flex flex-col items-center justify-center gap-10">
                     <div class="flex justify-center">
                         <img class="h-[150px]" src="../assets/Update.png" />
@@ -41,7 +41,7 @@
                         </span>
                     </div>
                 </div>
-                <a><div class="bg-[#e69700] rounded-[15px] h-[50px] w-[125px] text-2xl text-[#272d30] flex items-center justify-center hover:scale-110 hover:text-white transition duration-150">
+                <a><div class="bg-[#e69700] rounded-[15px] h-[50px] w-[125px] text-2xl text-[#272d30] flex items-center justify-center lg:hover:scale-110 hover:text-white transition duration-150">
                     <span class="font-bold uppercase">update</span>
                 </div></a>
             </div>
