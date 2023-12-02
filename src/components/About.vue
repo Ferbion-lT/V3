@@ -1,20 +1,22 @@
 <template>
-    <div class="bg-[#272d30] pb-[100px]">
+    <div class="bg-[#272d30] pb-[100px] overflow-hidden">
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">über uns</span>
         </div>   
-        <div class="transition duration-300 flex flex-col justify-center gap-[500px] sm:flex-row lg:hover:scale-110">
+        <div class="transition duration-300 flex flex-col justify-center gap-[500px] sm:flex-row lg:hover:scale-100">
             <div class="flex flex-col justify-center">
-                <div class="pt-[50px] text-center">
-                    <span class="text-white font-bold text-4xl">Ein Team mit <br><span class="text-[#01a7ee]">Freundschaft </span>hinter</span>
+                <div class="pt-[50px] text-left">
+                    <span class="text-white font-bold text-4xl">Ein Team hinter dem<br><span class="text-[#01a7ee]">Freundschaft </span>steht</span>
                 </div>
-                <div class="pt-[50px] text-center">
-                    <span class="text-white text-xl">Wir beide haben Erfahrung in den tiefen<br>
-                    von Webdesign und Development seit 2019<br>
-                    Wenn Sie eine professionelle Website benötigen, kontaktieren Sie uns!;
+                <div class="pt-[50px] text-left">
+                    <span class="text-white text-xl">Seit 2019 haben wir uns tief in
+                    die Bereiche der Webentwicklung<br> und des Webdesigns vertieft,
+                    und sind<br> dort seitdem begeistert aktiv.<br>
+                    Durch unsere Leidenschaft und Hingabe<br> haben wir uns einen<br>
+                    festen Platz in den Welten der Webentwicklung und<br> des Webdesigns geschaffen
                 </span>
             </div>
-            <div class="flex justify-center pt-8">
+            <div class="flex justify-center pt-[75px]">
                 <a href="#"><div class="transition duration-300 bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl lg:hover:scale-110 hover:text-white">Kontakt</div></a>
             </div>
         </div>
@@ -58,8 +60,8 @@
         </div>
         <div class="transition duration-300 mt-[250px] flex flex-col justify-center gap-[250px] sm:flex-row lg:hover:scale-110">
             <div class="flex flex-col gap-12 text-center">
-                <span class="text-white font-bold text-4xl">Warum <span class="text-[#01a7ee]">uns nehmen?</span></span>
-                <div class="flex flex-col border-l-2 border-l-[#01a7ee] pl-4 text-center sm:text-left">
+                <span class="text-white font-bold text-4xl">Warum Sie uns <span class="text-[#01a7ee]">wählen sollten?</span></span>
+                <div class="flex flex-col gap-4 border-l-2 border-l-[#01a7ee] pl-4 text-center sm:text-left">
                     <span class="transition duration-300 hover:text-[#01a7ee] text-white text-xl">Mehr als 6 Jahre Erfahrung im Web Development</span>
                     <span class="transition duration-300 hover:text-[#01a7ee] text-white text-xl">Ein junges und erfahrenes Team</span>
                     <span class="transition duration-300 hover:text-[#01a7ee] text-white text-xl">Wir sind immer auf dem neusten Stand</span>
