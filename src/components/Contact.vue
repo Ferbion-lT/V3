@@ -5,10 +5,10 @@
         </div>
         <div class="flex flex-col-reverse gap-[500px] sm:flex-row">
             <div class="flex flex-col gap-[35px] pt-[150px] sm:pl-[100px]">
-                <div class="flex justify-center">
+                <div class="flex justify-center transition duration-300 hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Full Name">
                 </div>
-                <div class="flex justify-center">
+                <div class="flex justify-center transition duration-300 hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Email">
                 </div>
                 <div class="flex justify-center">
@@ -22,14 +22,14 @@
                         </select>
                     </label>
                 </div>
-                <div class="flex justify-center">
+                <div class="flex justify-center transition duration-300 hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[250px] w-[400px] pl-3" placeholder="Message">
                 </div>
                 <div class="flex justify-center">
-                    <div class="bg-[#e69700] rounded-[15px] text-center w-[125px] h-[30px] flex justify-center items-center text-black text-xl">Attach Files</div>
+                    <a href="#"><div class="bg-[#e69700] rounded-[15px] text-center w-[125px] h-[30px] flex justify-center items-center text-black text-xl transition duration-150 hover:scale-110 hover:text-white">Attach Files</div></a>
                 </div>
                 <div class="flex justify-center pt-10">
-                    <div class="bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl">send</div>
+                    <a href="#"><div class="bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl transition duration-300 hover:scale-110 hover:text-white">send</div></a>
                 </div>
             </div>
             <div class="mt-[130px]">
