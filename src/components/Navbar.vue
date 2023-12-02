@@ -16,13 +16,13 @@
             <div class="">
             <ul class="flex flex-col sm:flex-row gap-10 sm:pr-[150px]">
             <li class="list-none">
-              <a class="text-[#00a8f0] uppercase cursor-pointer">home</a>
+              <a class="text-[#00a8f0] uppercase cursor-pointer">start</a>
             </li>
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">about us</a>
+              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">über uns</a>
             </li>
             <li class="list-none ">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">services</a>
+              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">dienste</a>
             </li>
           </ul>
         </div>
@@ -32,10 +32,10 @@
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">projects</a>
+              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">projekte</a>
             </li>
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">contact</a>
+              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">kontakt</a>
             </li>
             <li class="list-none">
               <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">impressum</a>
@@ -48,14 +48,14 @@
        <div class="flex mt-[7%] ml-[7.5%]">
         <div class="flex flex-col gap-6">
         <div>
-          <h2 class="text-white font-bold text-5xl">You Need A <span class="text-[#00a8f0]">Website</span><br>We Will Help You</h2>
+          <h2 class="text-white font-bold text-5xl">Sie bruachen eine <span class="text-[#00a8f0]">Website</span><br>Wir helfen Ihnen</h2>
         </div>
         <div>
-          <span class="text-white text-xl mt-5">There are already +80 Customers we've made <span class="text-[#00a8f0]">happy</span></span>
+          <span class="text-white text-xl mt-5">Wir haben breits ein paar Kunden <span class="text-[#00a8f0]">glücklich</span> gemacht.</span>
         </div>
         <div class="">
         <div class="flex justify-center">
-          <button class="bg-[#e69700] uppercase rounded-[15px] w-[300px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">take me around</button>
+          <button class="bg-[#e69700] uppercase rounded-[15px] w-[300px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Zeig mir mehr</button>
         </div>
        </div>
        </div>
