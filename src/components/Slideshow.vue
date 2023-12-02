@@ -5,12 +5,12 @@
                 <div class="pl-[25px]">
                     <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+80</span><br>
-                        <span class="text-white">Websites</span>
+                        <span class="text-white">Webseiten</span>
                     </div>
                 </div>
                 <div class="pl-[25px]">
                     <div class="h-[175px] w-[450px] flex items-center">
-                        <span class="text-2xl">-- Wir haben bereits 80 Websiten erstellt --</span>
+                        <span class="text-2xl">-- Bereits über +80 erstellte Webseiten --</span>
                     </div>
                 </div>
                 <div class="pl-[25px]">
@@ -20,30 +20,30 @@
                     </div>
                 </div>
                 <div class="pl-[25px]">
-                    <div class="h-[175px] w-[300px] flex items-center">
-                        <span class="text-2xl">-- 5 Sterne Bewertungen --</span>
+                    <div class="h-[175px] w-[525px] flex items-center">
+                        <span class="text-2xl">-- 5 Sterne: Ihr Vertrauen, unsere Bestätigung --</span>
                     </div>
                 </div>
                 <div class="pl-[25px]">
                     <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+580</span><br>
-                        <span class="text-white">Stunden arbeit</span>
+                        <span class="text-white">Stunden Arbeit</span>
                     </div>
                 </div>			
                 <div class="pl-[25px]">
-                    <div class="h-[175px] w-[475px] flex items-center">
-                        <span class="text-2xl">-- Wir tun stehts unser bestes --</span>
+                    <div class="h-[175px] w-[550px] flex items-center">
+                        <span class="text-2xl">-- Wir geben unser Bestes für glückliche Kunden --</span>
                     </div>
                 </div>
                 <div class="pl-[25px]">
                     <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+80</span><br>
-                        <span class="text-white">Websites</span>
+                        <span class="text-white">Webseiten</span>
                     </div>
                 </div>
                 <div class="pl-[25px]">
                     <div class="h-[175px] w-[450px] flex items-center">
-                        <span class="text-2xl">-- Wir haben bereits 80 Websiten erstellt --</span>
+                        <span class="text-2xl">-- Bereits über +80 erstellte Webseiten --</span>
                     </div>
                 </div>
                 <div class="pl-[25px]">
@@ -53,8 +53,8 @@
                     </div>
                 </div>
                 <div class="pl-[25px]">
-                    <div class="h-[175px] w-[300px] flex items-center">
-                        <span class="text-2xl">-- 5 Sterne Bewertungen --</span>
+                    <div class="h-[175px] w-[525px] flex items-center">
+                        <span class="text-2xl">-- 5 Sterne: Ihr Vertrauen, unsere Bestätigung --</span>
                     </div>
                 </div>
                 <div class="pl-[25px]">
@@ -64,8 +64,8 @@
                     </div>
                 </div>			
                 <div class="pl-[25px]">
-                    <div class="h-[175px] w-[475px] flex items-center">
-                        <span class="text-2xl">-- Wir tun stehts unser bestes --</span>
+                    <div class="h-[175px] w-[550px] flex items-center">
+                        <span class="text-2xl">-- Wir geben unser Bestes für glückliche Kunden --</span>
                     </div>
                 </div>
             </div>
