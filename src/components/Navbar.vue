@@ -48,14 +48,14 @@
        <div class="flex mt-[7%] ml-[7.5%]">
         <div class="flex flex-col gap-6">
         <div>
-          <h2 class="text-white font-bold text-5xl">Sie bruachen eine <span class="text-[#00a8f0]">Website</span><br>Wir helfen Ihnen</h2>
+          <h2 class="text-white font-bold text-5xl">Sie brauchen eine <span class="text-[#00a8f0]">Website?</span><br>Wir helfen Ihnen!</h2>
         </div>
         <div>
-          <span class="text-white text-xl mt-5">Wir haben breits ein paar Kunden <span class="text-[#00a8f0]">glücklich</span> gemacht.</span>
+          <span class="text-white text-xl mt-5">Bereits über <span class="text-[#00a8f0]">+80 </span>glückliche Kunden!</span>
         </div>
         <div class="">
-        <div class="flex justify-center">
-          <button class="bg-[#e69700] uppercase rounded-[15px] w-[300px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Zeig mir mehr</button>
+        <div class="flex ">
+          <button class="bg-[#e69700] uppercase rounded-[15px] w-[375px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Schauen Sie sich um</button>
         </div>
        </div>
        </div>
