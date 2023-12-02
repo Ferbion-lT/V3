@@ -4,7 +4,7 @@
             <div class="pt-[100px] text-center">
                 <span class="uppercase text-[#515151] font-bold text-5xl">Folgen Sie uns!</span>
             </div>
-            <div class="flex flex-row gap-5 pt-[25px]">
+            <div class="flex flex-row gap-5 pt-[50px] justify-center">
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center transition duration-150 lg:hover:scale-110 hover:bg-neutral-500">
                     <img class="h-[25px] w-[25px]" src="../assets/Icons/instagram.png" />
                 </div>
@@ -46,7 +46,7 @@
             <div class="border-r-2 border-[#01a7ee] pr-4 transition duration-300 lg:hover:scale-110">
                 <ul>
                     <li class="list-none">
-                        <a class="text-[#515151] underline text-xl transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Start</a>
+                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Start</a>
                     </li>
                     <li class="list-none">
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Über uns</a>
