@@ -3,7 +3,7 @@
         <div class="flex text-white bg-[#0f0f0f] w-full relative overflow-hidden pt-[25px] m-auto h-[200px]">
             <div class="slide-animation flex">
                 <div class="pl-[25px]">
-                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] hover:scale-110 duration-300 transition">
+                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+80</span><br>
                         <span class="text-white">Websites</span>
                     </div>
@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="pl-[25px]">
-                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] hover:scale-110 duration-300 transition">
+                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+60</span><br>
                         <span class="text-white">5 Stars Ratings</span>
                     </div>
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="pl-[25px]">
-                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] hover:scale-110 duration-300 transition">
+                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+580</span><br>
                         <span class="text-white">Hours Of Work</span>
                     </div>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="pl-[25px]">
-                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] hover:scale-110 duration-300 transition">
+                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+80</span><br>
                         <span class="text-white">Websites</span>
                     </div>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="pl-[25px]">
-                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] hover:scale-110 duration-300 transition">
+                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+60</span><br>
                         <span class="text-white">5 Stars Ratings</span>
                     </div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="pl-[25px]">
-                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] hover:scale-110 duration-300 transition">
+                    <div class="bg-[#272d30] h-[150px] w-[150px] flex justify-center items-center flex-col rounded-[15px] lg:hover:scale-110 duration-300 transition">
                         <span class="text-[#01a7ee] text-3xl font-bold">+580</span><br>
                         <span class="text-white">Hours Of Work</span>
                     </div>
