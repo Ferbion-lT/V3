@@ -27,7 +27,7 @@
           </ul>
         </div>
         <div class="hidden sm:block relative mt-[-1.6%]">
-          <img class="h-[90px] w-[190px] hover:scale-110 duration-300 transition" src="../assets/Logo.png"> 
+          <img class="h-[90px] w-[190px] lg:hover:scale-110 duration-300 transition" src="../assets/Logo.png"> 
         </div>
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
@@ -55,7 +55,7 @@
         </div>
         <div class="">
         <div class="flex justify-center">
-          <button class="bg-[#e69700] uppercase rounded-[15px] w-[300px] h-[50px] text-3xl font-bold mt-10 hover:scale-110 hover:text-white transition duration-300">take me around</button>
+          <button class="bg-[#e69700] uppercase rounded-[15px] w-[300px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">take me around</button>
         </div>
        </div>
        </div>
