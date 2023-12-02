@@ -5,10 +5,10 @@
         </div>
         <div class="flex flex-col-reverse gap-[500px] sm:flex-row">
             <div class="flex flex-col gap-[35px] pt-[150px] sm:pl-[100px]">
-                <div class="flex justify-center transition duration-300 hover:scale-110 hover:text-white">
+                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Full Name">
                 </div>
-                <div class="flex justify-center transition duration-300 hover:scale-110 hover:text-white">
+                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Email">
                 </div>
                 <div class="flex justify-center">
@@ -22,7 +22,7 @@
                         </select>
                     </label>
                 </div>
-                <div class="flex justify-center transition duration-300 hover:scale-110 hover:text-white">
+                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[250px] w-[400px] pl-3" placeholder="Message">
                 </div>
                 <div class="flex justify-center">
