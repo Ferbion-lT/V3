@@ -26,7 +26,7 @@
                     <input class="bg-[#272d30] rounded-[10px] h-[250px] w-[400px] pl-3" placeholder="Nachricht">
                 </div>
                 <div class="flex justify-center">
-                    <a href="#"><div class="bg-[#e69700] rounded-[15px] text-center w-[125px] h-[30px] flex justify-center items-center text-black text-xl transition duration-150 hover:scale-110 hover:text-white">Datein anhängen</div></a>
+                    <a href="#"><div class="bg-[#e69700] rounded-[15px] text-center w-[200px] h-[30px] flex justify-center items-center text-black text-xl transition duration-150 hover:scale-110 hover:text-white">Datein anhängen</div></a>
                 </div>
                 <div class="flex justify-center pt-10">
                     <a href="#"><div class="bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl transition duration-300 hover:scale-110 hover:text-white">Senden</div></a>
@@ -38,7 +38,7 @@
                     <span class="text-[#01a7ee]">Buisness zu stärken</span>
                     </span>
                     <div class="flex">
-                        <span class="text-[#01a7ee] font-bold text-6xl text-center">Kommen Sie mir uns <span class="text-white">in Kontakt.</span></span>
+                        <span class="text-[#01a7ee] font-bold text-6xl text-center">Treten Sie mit uns <br><span class="text-white">in Kontakt.</span></span>
                     </div>
                 </div>
             </div>
