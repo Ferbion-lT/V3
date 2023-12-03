@@ -6,7 +6,7 @@
         <div class="flex flex-col gap-[250px] pt-[250px] sm:flex-row sm:justify-center">
             <div class="flex justify-center flex-col gap-4 lg:hover:scale-125 transition duration-300">
                 <div class="text-center">
-                    <span class="text-white font-bold text-4xl uppercase">UPC</span>
+                    <span class="text-white font-bold text-4xl uppercase">Karl08</span>
                 </div>
                 <div class="flex justify-center">
                     <div class="rounded-[15px] bg-white h-[150px] w-[300px]"></div>
@@ -17,7 +17,7 @@
             </div>
             <div class="flex flex-col justify-center gap-4 lg:hover:scale-125 transition duration-300">
                 <div class="text-center">
-                    <span class="text-white font-bold text-4xl uppercase">Pterodactyl Manager</span>
+                    <span class="text-white font-bold text-4xl uppercase">XYZCRAFT</span>
                 </div>
                 <div class="flex justify-center">
                     <div class="rounded-[15px] bg-white h-[150px] w-[300px]"></div>
