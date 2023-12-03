@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <template>
     <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
         <div class="flex justify-center">
@@ -31,10 +30,6 @@
         </div>
     </div>
     <div class="bg-[#191d1e] flex justify-center pt-[100px]">
-=======
-<template class="scroll-smooth">
-    <div class="bg-[#191d1e] flex justify-center">
->>>>>>> 8012ba7aa3c05a70a7d1af210a3c7f800ba3fea2
         <div class="flex flex-col border-t-2 border-[#01a7ee]">
             <div class="pt-[100px] text-center">
                 <span class="uppercase text-[#515151] font-bold text-5xl">Folgen Sie uns!</span>
