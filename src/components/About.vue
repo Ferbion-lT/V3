@@ -11,7 +11,7 @@
                 <div class="pt-[50px] text-left">
                     <span class="text-white text-xl">Seit 2019 sind wir in den Welten der Webentwicklung und des Webdesign untwegs.
                     Wenn Sie mehr erfahren möchtest, freuen wir
-                    uns auf deine Kontaktaufnahme! ;)
+                    uns auf Ihre Kontaktaufnahme!
                 </span>
             </div>
             <div class="flex justify-center pt-[75px]">
