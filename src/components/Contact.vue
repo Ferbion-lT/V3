@@ -13,7 +13,7 @@
                 </div>
                 <div class="flex justify-center">
                     <label class="text-white" for="type">
-                        <select class="bg-[#272d30] w-[400px] h-[35px] rounded-[10px] pl-3" id="type" name="type">
+                        <select class="bg-[#272d30] w-[370px] lg:w-[400px] h-[35px] rounded-[10px] pl-3" id="type" name="type">
                             <option value="select">Betreff</option>
                             <option value="quesions">Fragen</option>
                             <option value="bewerbung">Bewerbungen</option>
