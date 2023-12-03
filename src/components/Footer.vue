@@ -1,4 +1,4 @@
-<template>
+<template class="scroll-smooth">
     <div class="bg-[#191d1e] flex justify-center">
         <div class="flex flex-col border-t-2 border-[#01a7ee]">
             <div class="pt-[100px] text-center">
