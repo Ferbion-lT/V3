@@ -1,5 +1,19 @@
 <template>
     <div class="bg-[#191d1e] flex justify-center">
+        <div class="bg-[#272d30] rounded-[15px] h-[250px] w-[400px] flex items-center pl-5">
+            <span class="text-[#adadad] text-xl flex flex-col">
+            <span class="font-bold">Ben-Luca Gering</span><br>
+            Am Kappellenhof 26<br>53783 Eitorf<br>
+            <span class="font-bold pt-4">Kontakt:</span><br>
+            Telefon: 01525 3144275<br>
+            Email:
+            <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
+                benlucagering@gmail.com 
+            </a>
+            </span>
+        </div>
+    </div>
+    <div class="bg-[#191d1e] flex justify-center">
         <div class="flex flex-col border-t-2 border-[#01a7ee]">
             <div class="pt-[100px] text-center">
                 <span class="uppercase text-[#515151] font-bold text-5xl">Folgen Sie uns!</span>
