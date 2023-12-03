@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen bg-[#272d30]">
+  <div id="start" class="h-screen bg-[#272d30]">
         <header class="bg-[#272d30] sm:flex sm:justify-center pt-10">
         <div class="flex pl-[7.5%] px-4 py-3 sm:p-0">
           <div class="sm:hidden">
