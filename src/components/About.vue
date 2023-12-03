@@ -3,7 +3,7 @@
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">über uns</span>
         </div>   
-        <div class="transition duration-300 flex flex-col justify-center gap-[500px] sm:flex-row lg:hover:scale-100">
+        <div class="transition duration-300 flex flex-col justify-center gap-[500px] sm:flex-row lg:scale-90 lg:hover:scale-95">
             <div class="flex flex-col justify-center">
                 <div class="pt-[50px] text-left">
                     <span class="text-white font-bold text-4xl">Ein Team hinter dem<br><span class="text-[#01a7ee]">Freundschaft </span>steht</span>
