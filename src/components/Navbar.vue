@@ -55,7 +55,7 @@
         </div>
         <div class="">
         <div class="flex ">
-          <button class="bg-[#e69700] uppercase rounded-[15px] w-[375px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Schauen Sie sich um</button>
+          <a href="#about"><button class="bg-[#e69700] uppercase rounded-[15px] w-[375px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Schauen Sie sich um</button></a>
         </div>
        </div>
        </div>
