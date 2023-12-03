@@ -15,7 +15,7 @@
                 </span>
             </div>
             <div class="flex justify-center pt-[75px]">
-                <a href="#"><div class="transition duration-300 bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl lg:hover:scale-110 hover:text-white">Kontakt</div></a>
+                <a href="#contact"><div class="transition duration-300 bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl lg:hover:scale-110 hover:text-white">Kontakt</div></a>
             </div>
         </div>
             <div class="flex flex-col gap-10 pt-[75px] sm:flex-row">
