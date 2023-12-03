@@ -16,13 +16,13 @@
             <div class="">
             <ul class="flex flex-col sm:flex-row gap-10 sm:pr-[150px]">
             <li class="list-none">
-              <a class="text-[#00a8f0] uppercase cursor-pointer">start</a>
+              <a href="#start" class="text-[#00a8f0] uppercase cursor-pointer">start</a>
             </li>
             <li class="list-none">
               <a href="#about" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">über uns</a>
             </li>
             <li class="list-none ">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">dienste</a>
+              <a href="#services" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">dienste</a>
             </li>
           </ul>
         </div>
@@ -32,10 +32,10 @@
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">projekte</a>
+              <a href="#projects" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">projekte</a>
             </li>
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">kontakt</a>
+              <a href="#contact" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">kontakt</a>
             </li>
             <li class="list-none">
               <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">impressum</a>
