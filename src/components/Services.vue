@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#191d1e] pb-[100px]">
+    <div id="services" class="bg-[#191d1e] pb-[100px]">
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">dienste</span>
         </div>
