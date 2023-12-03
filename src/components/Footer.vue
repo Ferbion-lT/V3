@@ -6,27 +6,27 @@
             </div>
             <div class="flex flex-row gap-5 pt-[50px] justify-center">
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center transition duration-150 lg:hover:scale-110 hover:bg-neutral-500">
-                    <a href="" >
+                    <a href="https://www.instagram.com/ferbion_web/" target="_blank">
                         <img class="h-[25px] w-[25px]" src="../assets/Icons/instagram.png" />
                     </a>
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center transition duration-150 lg:hover:scale-110 hover:bg-neutral-500">
-                    <a href="">
+                    <a href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA" target="_blank">
                         <img class="h-[35px] w-[35px]" src="../assets/Icons/youtube.png" />
                     </a>
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center transition duration-150 lg:hover:scale-110 hover:bg-neutral-500">
-                    <a href="" >
+                    <a href="https://www.tiktok.com/@ferbionweb" target="_blank">
                         <img class="h-[25px] w-[25px]" src="../assets/Icons/tik-tok.png" />
                     </a>
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center transition duration-150 lg:hover:scale-110 hover:bg-neutral-500">
-                    <a href="" >
+                    <a href="https://twitter.com/FerbionWeb" target="_blank">
                         <img class="h-[25px] w-[25px]" src="../assets/Icons/twitter.png" />
                     </a>
                 </div>
                 <div class="h-[50px] w-[50px] rounded-md bg-[#515151] flex justify-center items-center transition duration-150 lg:hover:scale-110 hover:bg-neutral-500">
-                    <a href="" >
+                    <a href="" target="_blank">
                         <img class="h-[25px] w-[25px]" src="../assets/Icons/facebook-app-symbol.png">
                     </a>
                 </div>
