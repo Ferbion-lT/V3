@@ -1,5 +1,5 @@
-<template>
-  <div class="h-screen bg-[#272d30]">
+<template class="scroll-smooth">
+  <div id="start" class="h-screen bg-[#272d30]">
         <header class="bg-[#272d30] sm:flex sm:justify-center pt-10">
         <div class="flex pl-[7.5%] px-4 py-3 sm:p-0">
           <div class="sm:hidden">
@@ -16,13 +16,13 @@
             <div class="">
             <ul class="flex flex-col sm:flex-row gap-10 sm:pr-[150px]">
             <li class="list-none">
-              <a class="text-[#00a8f0] uppercase cursor-pointer">start</a>
+              <a href="#start" class="text-[#00a8f0] uppercase cursor-pointer">start</a>
             </li>
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">über uns</a>
+              <a href="#about" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">über uns</a>
             </li>
             <li class="list-none ">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">dienste</a>
+              <a href="#services" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">dienste</a>
             </li>
           </ul>
         </div>
@@ -32,10 +32,10 @@
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">projekte</a>
+              <a href="#projects" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">projekte</a>
             </li>
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">kontakt</a>
+              <a href="#contact" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">kontakt</a>
             </li>
             <li class="list-none">
               <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">impressum</a>
@@ -55,7 +55,7 @@
         </div>
         <div class="">
         <div class="flex ">
-          <button class="bg-[#e69700] uppercase rounded-[15px] w-[375px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Schauen Sie sich um</button>
+          <a href="#about"><button class="bg-[#e69700] uppercase rounded-[15px] w-[330px] lg:w-[375px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Schauen Sie sich um</button></a>
         </div>
        </div>
        </div>

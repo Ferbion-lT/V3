@@ -1,4 +1,4 @@
-<template>
+<template class="scroll-smooth">
 <div class="flex justify-center">
         <div class="flex text-white bg-[#0f0f0f] w-full relative overflow-hidden pt-[25px] m-auto h-[200px]">
             <div class="slide-animation flex">

@@ -1,5 +1,5 @@
-<template>
-    <div class="bg-[#191d1e] pb-[250px]">
+<template class="scroll-smooth">
+    <div id="contact" class="bg-[#191d1e] pb-[250px]">
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">contact</span>
         </div>
@@ -13,7 +13,7 @@
                 </div>
                 <div class="flex justify-center">
                     <label class="text-white" for="type">
-                        <select class="bg-[#272d30] w-[400px] h-[35px] rounded-[10px] pl-3" id="type" name="type">
+                        <select class="bg-[#272d30] w-[370px] lg:w-[400px] h-[35px] rounded-[10px] pl-3" id="type" name="type">
                             <option value="select">Betreff</option>
                             <option value="quesions">Fragen</option>
                             <option value="bewerbung">Bewerbungen</option>

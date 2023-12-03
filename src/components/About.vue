@@ -1,9 +1,9 @@
-<template>
-    <div class="bg-[#272d30] pb-[100px] overflow-hidden">
+<template class="scroll-smooth">
+    <div id="about" class="bg-[#272d30] pb-[100px] overflow-hidden">
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">über uns</span>
         </div>   
-        <div class="transition duration-300 flex flex-col justify-center gap-[500px] sm:flex-row lg:hover:scale-100">
+        <div class="transition duration-300 flex flex-col justify-center gap-[500px] sm:flex-row lg:scale-90 lg:hover:scale-95">
             <div class="flex flex-col justify-center">
                 <div class="pt-[50px] text-left">
                     <span class="text-white font-bold text-4xl">Ein Team hinter dem<br><span class="text-[#01a7ee]">Freundschaft </span>steht</span>
@@ -11,11 +11,11 @@
                 <div class="pt-[50px] text-left">
                     <span class="text-white text-xl">Seit 2019 sind wir in den Welten der Webentwicklung und des Webdesign untwegs.
                     Wenn Sie mehr erfahren möchtest, freuen wir
-                    uns auf deine Kontaktaufnahme! ;)
+                    uns auf Ihre Kontaktaufnahme!
                 </span>
             </div>
             <div class="flex justify-center pt-[75px]">
-                <a href="#"><div class="transition duration-300 bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl lg:hover:scale-110 hover:text-white">Kontakt</div></a>
+                <a href="#contact"><div class="transition duration-300 bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl lg:hover:scale-110 hover:text-white">Kontakt</div></a>
             </div>
         </div>
             <div class="flex flex-col gap-10 pt-[75px] sm:flex-row">
