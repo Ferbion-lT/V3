@@ -1,5 +1,4 @@
 <template class="scroll-smooth">
-    <body>
     <div id="about" class="bg-[#272d30] pb-[100px] overflow-hidden">
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">über uns</span>
@@ -74,5 +73,4 @@
             </div>
         </div>
     </div>  
-</body>
 </template>
