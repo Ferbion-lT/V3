@@ -21,7 +21,8 @@
             <div class="flex flex-col gap-10 pt-[75px] sm:flex-row">
                 <div class="flex justify-center">
                     <div class="w-[300px] rounded-[15px] lg:hover:scale-110 duration-300 transition">
-                        <div class="bg-white h-[300px] rounded-t-[15px]"></div>
+                        <div class="bg-white"></div>
+                        <img src="../assets/BenLuca.png" class="h-[300px] rounded-t-[15px]">
                             <div class="bg-[#2e2e2e] rounded-b-[15px] h-[50px] text-center flex items-center justify-center">
                             <span class="text-[#01a7ee] font-bold text-3xl">Linus</span>
                         </div>
@@ -33,7 +34,8 @@
                 </div>
                 <div class="flex justify-center">
                     <div class="w-[300px] rounded-[15px] lg:hover:scale-110 duration-300 transition">
-                        <div class="bg-white h-[300px] rounded-t-[15px]"></div>
+                        <div class="bg-white "></div>
+                            <img src="../assets/BenLuca.png" class="h-[300px] rounded-t-[15px]">
                             <div class="bg-[#2e2e2e] rounded-b-[15px] h-[50px] text-center flex items-center justify-center">
                             <span class="text-[#01a7ee] font-bold text-3xl">Ben-Luca</span>
                         </div>
@@ -47,7 +49,7 @@
         </div>
         <div class="transition duration-300 mt-[250px] flex flex-col-reverse justify-center gap-[250px] sm:flex-row lg:hover:scale-110">
             <div class="flex justify-center">
-                <div class="bg-white h-[175px] w-[400px] rounded-[15px]"></div>
+                <img src="../assets/stonks.png" class="h-[175px] w-[400px] rounded-[15px]">
             </div>
             <div class="flex flex-col gap-8 text-center">
                 <span class="text-white font-bold text-4xl text-center sm:text-right">Bringen Sie ihr Business <br>auf das <span class="text-[#01a7ee] font-bold"> nächste Level</span></span>
@@ -67,8 +69,8 @@
                 </div>
             </div>
             <div class="flex justify-center">
-                <div class="bg-white h-[175px] w-[400px] rounded-[15px]"></div>
+                <img src="../assets/handshake.png" class="h-[175px] w-[400px] rounded-[15px]">
             </div>
         </div>
-    </div>
+    </div>  
 </template>
