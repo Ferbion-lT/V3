@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
         <div class="flex justify-center">
-            <div class="bg-[#272d30] rounded-[15px] h-[250px] w-[400px] flex items-center pl-5">
+            <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex items-center pl-5">
                 <span class="text-[#adadad] text-xl flex flex-col">
                 <span class="font-bold">Ben-Luca Gering</span><br>
                 Am Kappellenhof 26<br>53783 Eitorf<br>
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="flex justify-center">
-            <div class="bg-[#272d30] rounded-[15px] h-[250px] w-[400px] flex items-center pl-5">
+            <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex items-center pl-5">
                 <span class="text-[#adadad] text-xl flex flex-col">
                 <span class="font-bold">Linus Ehle</span><br>
                 Olgastraße 88<br>73779 Deizisau<br>
