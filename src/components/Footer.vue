@@ -6,7 +6,7 @@
                 <span class="font-bold">Ben-Luca Gering</span><br>
                 Am Kappellenhof 26<br>53783 Eitorf<br>
                 <span class="font-bold pt-4">Kontakt:</span><br>
-                Telefon: 01525 3144275<br>
+                Telefon: +49 1525 314 42 75<br>
                 Email:
                 <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
                     benlucagering@gmail.com 
