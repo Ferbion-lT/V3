@@ -18,12 +18,12 @@
             <div class="bg-[#272d30] rounded-[15px] h-[250px] w-[400px] flex items-center pl-5">
                 <span class="text-[#adadad] text-xl flex flex-col">
                 <span class="font-bold">Linus Ehle</span><br>
-                Am Kappellenhof 26<br>53783 Eitorf<br>
+                Olgastraße 88<br>73779 Deizisau<br>
                 <span class="font-bold pt-4">Kontakt:</span><br>
-                Telefon: 01525 3144275<br>
+                Telefon: +49 178 140 95 90<br>
                 Email:
                 <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
-                    benlucagering@gmail.com 
+                    linusfinn.ehle@gmail.com 
                 </a>
             </span>
         </div>
