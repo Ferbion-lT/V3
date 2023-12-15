@@ -9,7 +9,7 @@
                     <span class="text-white font-bold text-4xl uppercase">M&M Handwerk</span>
                 </div>
                 <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="src/assets/webPrev/MuMHandwerk.PNG" class="rounded-[15px]"></div>
+                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/handwerk.png" class="rounded-[15px]"></div>
                 </div>
                 <div class="flex justify-center pt-10">
                     <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
@@ -20,7 +20,7 @@
                     <span class="text-white font-bold text-4xl uppercase">Ben's Burger</span>
                 </div>
                 <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="src/assets/webPrev/BensBurger.PNG" class="rounded-[15px]"></div>
+                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/bensburger.png" class="rounded-[15px]"></div>
                 </div>
                 <div class="flex justify-center pt-10">
                     <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
@@ -36,7 +36,7 @@
                     <span class="text-white font-bold text-4xl uppercase">Karl08</span>
                 </div>
                 <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="src/assets/webPrev/karl08.PNG" class="rounded-[15px]"></div>
+                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/karl08.png" class="rounded-[15px]"></div>
                 </div>
                 <div class="flex justify-center pt-10">
                     <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
@@ -47,7 +47,7 @@
                     <span class="text-white font-bold text-4xl uppercase">xyzcraft</span>
                 </div>
                 <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="src/assets/webPrev/xyzcarft.PNG" class="rounded-[15px]"></div>
+                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/karl08.png" class="rounded-[15px]"></div>
                 </div>
                 <div class="flex justify-center pt-10">
                     <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
