@@ -33,8 +33,8 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center bg-[#191d1e]">
-        <div id="popup_impressum" class="hidden bg-[#191d1e]">
+    <div class="flex justify-center items-center bg-[#191d1e] z-10 pt-12">
+        <div id="popup_impressum" class="hidden justify-center items-center bg-[#191d1e]">
             <div class="">
                 <span class="close" v-on:click="close_impressum">&times;</span>
                 <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
@@ -108,7 +108,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-[#191d1e] flex justify-center">
+    <div class="bg-[#191d1e] flex justify-center"  id="scroll_popups">
         <div class="bg-[#272d30] w-[200px] flex justify-center rounded-t-[15px]">
             <img class="h-[75px]" src="../assets/Logo.png" />
         </div>
@@ -118,7 +118,8 @@
 <script setup>
 
 function impressum (event) {
-    document.getElementById("popup_impressum").style.display = "block";
+    document.getElementById("popup_impressum").style.display = "flex";
+    document.getElementById("scroll_popups").scrollIntoView({behavior: "smooth"});
 }
 function close_impressum (event) {
     document.getElementById("popup_impressum").style.display = "none";
@@ -128,7 +129,6 @@ function close_impressum (event) {
 
 <style>
 
-/* The Close Button */
 .close {
   color: #aaaaaa;
   float: right;
@@ -138,7 +138,6 @@ function close_impressum (event) {
 
 .close:hover,
 .close:focus {
-
   text-decoration: none;
   cursor: pointer;
 }
