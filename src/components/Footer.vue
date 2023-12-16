@@ -1,34 +1,4 @@
 <template>
-    <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
-        <div class="flex justify-center">
-            <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex items-center pl-5">
-                <span class="text-[#adadad] text-xl flex flex-col">
-                <span class="font-bold">Ben-Luca Gering</span><br>
-                Am Kappellenhof 26<br>53783 Eitorf<br>
-                <span class="font-bold pt-4">Kontakt:</span><br>
-                Telefon: +49 1525 314 42 75<br>
-                Email:
-                <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
-                    benlucagering@gmail.com 
-                </a>
-                </span>
-            </div>
-        </div>
-        <div class="flex justify-center">
-            <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex items-center pl-5">
-                <span class="text-[#adadad] text-xl flex flex-col">
-                <span class="font-bold">Linus Ehle</span><br>
-                Olgastraße 88<br>73779 Deizisau<br>
-                <span class="font-bold pt-4">Kontakt:</span><br>
-                Telefon: +49 178 140 95 90<br>
-                Email:
-                <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
-                    linusfinn.ehle@gmail.com 
-                </a>
-            </span>
-        </div>
-        </div>
-    </div>
     <div class="bg-[#191d1e] flex justify-center pt-[100px]">
         <div class="flex flex-col border-t-2 border-[#01a7ee]">
             <div class="pt-[100px] text-center">
@@ -63,12 +33,49 @@
             </div>
         </div>
     </div>
+    <div class="flex justify-center bg-[#191d1e]">
+        <div id="popup_impressum" class="hidden bg-[#191d1e]">
+            <div class="">
+                <span class="close" v-on:click="close_impressum">&times;</span>
+                <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
+                    <div class="flex justify-center">
+                        <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex items-center pl-5">
+                            <span class="text-[#adadad] text-xl flex flex-col">
+                            <span class="font-bold">Ben-Luca Gering</span><br>
+                            Am Kappellenhof 26<br>53783 Eitorf<br>
+                            <span class="font-bold pt-4">Kontakt:</span><br>
+                            Telefon: +49 1525 314 42 75<br>
+                            Email:
+                            <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
+                                benlucagering@gmail.com 
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex items-center pl-5">
+                            <span class="text-[#adadad] text-xl flex flex-col">
+                            <span class="font-bold">Linus Ehle</span><br>
+                            Olgastraße 88/1<br>73779 Deizisau<br>
+                            <span class="font-bold pt-4">Kontakt:</span><br>
+                            Telefon: +49 178 140 95 90<br>
+                            Email:
+                            <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
+                                linusfinn.ehle@gmail.com 
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="bg-[#191d1e] flex justify-center pt-10 gap-[35%] pb-[75px]">
         <div class="flex flex-col justify-center">
             <div class="border-l-2 border-[#01a7ee] pl-4 transition duration-300 lg:hover:scale-110">
                 <ul>
                     <li class="list-none">
-                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" @click="impressum">Impressum</a>
+                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="impressum">Impressum</a>
                     </li>
                     <li class="list-none">
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Datenschutz</a>
@@ -111,10 +118,28 @@
 <script setup>
 
 function impressum (event) {
-  alert(`Hello !`)
+    document.getElementById("popup_impressum").style.display = "block";
+}
+function close_impressum (event) {
+    document.getElementById("popup_impressum").style.display = "none";
 }
 
-function cookies (event) {
-    alert('hello !')
-}
 </script>
+
+<style>
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
