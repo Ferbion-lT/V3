@@ -68,7 +68,7 @@
             <div class="border-l-2 border-[#01a7ee] pl-4 transition duration-300 lg:hover:scale-110">
                 <ul>
                     <li class="list-none">
-                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Impressum</a>
+                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" @click="impressum">Impressum</a>
                     </li>
                     <li class="list-none">
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Datenschutz</a>
@@ -77,7 +77,7 @@
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Privatsphäre</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Cookies</a>
+                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="cookies">Cookies</a>
                     </li>
                 </ul>
             </div>
@@ -107,3 +107,14 @@
         </div>
     </div>
 </template>
+
+<script setup>
+
+function impressum (event) {
+  alert(`Hello !`)
+}
+
+function cookies (event) {
+    alert('hello !')
+}
+</script>
