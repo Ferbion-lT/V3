@@ -70,6 +70,23 @@
             </div>
         </div>
     </div>
+    <div class="flex justify-center items-center bg-[#191d1e] z-10 pt-12">
+        <div id="popup_datenschutz" class="hidden justify-center items-center bg-[#191d1e]">
+            <div class="">
+                <span class="close" v-on:click="close_datenschutz">&times;</span>
+                <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
+                    <div class="flex justify-center">
+                        <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex flex-col justify-center pt-10 gap-6">
+                            <span class="text-[#adadad] font-bold uppercase text-3xl text-center">unser datenschutz</span>
+                            <a class="text-center text-[#adadad] text-xl" href="" download="../assets/Datenschutz-Erklaerung.pdf">
+                                zum Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="bg-[#191d1e] flex justify-center pt-10 gap-[35%] pb-[75px]">
         <div class="flex flex-col justify-center">
             <div class="border-l-2 border-[#01a7ee] pl-4 transition duration-300 lg:hover:scale-110">
@@ -78,10 +95,10 @@
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="impressum">Impressum</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Datenschutz</a>
+                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="datenschutz">Datenschutz</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Privatsphäre</a>
+                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer">Privatsphäre</a>
                     </li>
                     <li class="list-none">
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="cookies">Cookies</a>
@@ -124,6 +141,15 @@ function impressum (event) {
 function close_impressum (event) {
     document.getElementById("popup_impressum").style.display = "none";
 }
+
+function datenschutz (event) {
+    document.getElementById("popup_datenschutz").style.display = "flex";
+    document.getElementById("scroll_popups").scrollIntoView({behavior: "smooth"});
+}
+function close_datenschutz (event) {
+    document.getElementById("popup_datenschutz").style.display = "none";
+}
+
 
 </script>
 
