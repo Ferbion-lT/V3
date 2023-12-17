@@ -87,6 +87,53 @@
             </div>
         </div>
     </div>
+    <div class="flex justify-center items-center bg-[#191d1e] z-10 pt-12">
+        <div id="popup_privatsphäre" class="hidden justify-center items-center bg-[#191d1e]">
+            <div class="">
+                <span class="close" v-on:click="close_privatsphäre">&times;</span>
+                <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
+                    <div class="flex justify-center">
+                        <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[400px] flex flex-col justify-center">
+                            <span class="text-[#adadad] text-3xl uppercase text-center font-bold">coming soon...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center bg-[#191d1e] z-10 pt-12">
+        <div id="popup_cookies" class="hidden justify-center items-center bg-[#191d1e]">
+            <div class="">
+                <span class="close" v-on:click="close_cookies">&times;</span>
+                <div class="bg-[#191d1e] flex flex-col lg:flex-row justify-center gap-[150px]">
+                    <div class="flex justify-center">
+                        <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[450px] flex items-center pl-5">
+                            <span class="text-[#adadad] text-xl flex flex-col gap-7">
+                            <span class="font-bold">Cookie Hinweis:</span>
+                            <span>Diese Website verwendet Cookies für eine bessere Nutzererfahrung.
+                            Durch die Nutzung erklären Sie sich damit einverstanden
+                            Einstellungen können im Browser angepasst werden.
+                            Details finden Sie in unserer Datenschutzrichtlinie.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <div class="bg-[#272d30] rounded-[15px] h-[350px] w-[450px] flex items-center pl-5">
+                            <span class="text-[#adadad] text-xl flex flex-col gap-7">
+                            <span class="font-bold">Arten von Cookies, die wir verwenden:</span>
+                            <span class="flex flex-col gap-2">
+                                <span class="font-bold">Notwendige Cookies:</span>
+                                <span>Für grundlegende Funktionen, können nicht deaktiviert werden.</span>
+                                <span class="font-bold">Analytische Cookies:</span>
+                                <span>Messen die Nutzung und verbessern helfen zur Verbesserung der Webseite</span>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="bg-[#191d1e] flex justify-center pt-10 gap-[35%] pb-[75px]">
         <div class="flex flex-col justify-center">
             <div class="border-l-2 border-[#01a7ee] pl-4 transition duration-300 lg:hover:scale-110">
@@ -98,7 +145,7 @@
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="datenschutz">Datenschutz</a>
                     </li>
                     <li class="list-none">
-                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer">Privatsphäre</a>
+                        <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="privatsphäre">Privatsphäre</a>
                     </li>
                     <li class="list-none">
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="cookies">Cookies</a>
@@ -150,7 +197,21 @@ function close_datenschutz (event) {
     document.getElementById("popup_datenschutz").style.display = "none";
 }
 
+function privatsphäre (event) {
+    document.getElementById("popup_privatsphäre").style.display = "flex";
+    document.getElementById("scroll_popups").scrollIntoView({behavior: 'smooth'});
+}
+function close_privatsphäre (event) {
+    document.getElementById("popup_privatsphäre").style.display = "none";
+}
 
+function cookies (event) {
+    document.getElementById("popup_cookies").style.display = "flex";
+    document.getElementById("scroll_popups").scrollIntoView({behavior: 'smooth'});
+}
+function close_cookies (event) {
+    document.getElementById("popup_cookies").style.display = "none";
+}
 </script>
 
 <style>
