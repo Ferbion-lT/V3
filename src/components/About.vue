@@ -20,9 +20,10 @@
         </div>
             <div class="flex flex-col gap-10 pt-[75px] sm:flex-row">
                 <div class="flex justify-center">
-                    <div class="w-[300px] rounded-[15px] lg:hover:scale-110 duration-300 transition">
-                        <div class="bg-white"></div>
-                        <img src="../assets/BenLuca.png" class="h-[300px] rounded-t-[15px]">
+                    <div class="w-[300px] rounded-[15px] flex justify-center flex-col lg:hover:scale-110 duration-300 transition">
+                        <div class="h-[300px] rounded-t-[15px] bg-[#2e2e2e] text-center flex items-center">
+                            <span class="text-[#adadad] text-2xl font-bold uppercase text-center">images comming soon...</span>
+                        </div>
                             <div class="bg-[#2e2e2e] rounded-b-[15px] h-[50px] text-center flex items-center justify-center">
                             <span class="text-[#01a7ee] font-bold text-3xl">Linus</span>
                         </div>
@@ -34,8 +35,9 @@
                 </div>
                 <div class="flex justify-center">
                     <div class="w-[300px] rounded-[15px] lg:hover:scale-110 duration-300 transition">
-                        <div class="bg-white "></div>
-                            <img src="../assets/BenLuca.png" class="h-[300px] rounded-t-[15px]">
+                            <div class="h-[300px] rounded-t-[15px] bg-[#2e2e2e] text-center flex items-center">
+                                <span class="text-[#adadad] text-2xl font-bold uppercase text-center">images comming soon...</span>
+                            </div>
                             <div class="bg-[#2e2e2e] rounded-b-[15px] h-[50px] text-center flex items-center justify-center">
                             <span class="text-[#01a7ee] font-bold text-3xl">Ben-Luca</span>
                         </div>
