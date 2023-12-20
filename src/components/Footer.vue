@@ -163,7 +163,7 @@
                         <a href="#about" class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Über uns</a>
                     </li>
                     <li class="list-none">
-                        <a href="#projects" class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Projekte</a>
+                        <a href="#projects" class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Portfolio</a>
                     </li>
                     <li class="list-none">
                         <a href="#contact" class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Kontakt</a>
