@@ -46,8 +46,8 @@
                             <span class="font-bold pt-4">Kontakt:</span><br>
                             Telefon: +49 1525 314 42 75<br>
                             Email:
-                            <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
-                                benlucagering@gmail.com 
+                            <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@ferbion.com" >
+                                benlucagering@ferbion.com
                             </a>
                             </span>
                         </div>
@@ -60,8 +60,8 @@
                             <span class="font-bold pt-4">Kontakt:</span><br>
                             Telefon: +49 178 140 95 90<br>
                             Email:
-                            <a class="underline hover:text-[#01a7ee]" href="mailto:benlucagering@gmail.com" >
-                                linusfinn.ehle@gmail.com 
+                            <a class="underline hover:text-[#01a7ee]" href="mailto:linusehle@ferbion.com">
+                                linusehle@ferbion.com
                             </a>
                             </span>
                         </div>
