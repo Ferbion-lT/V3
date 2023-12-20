@@ -32,7 +32,7 @@
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
             <li class="list-none">
-              <a href="#projects" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">projekte</a>
+              <a href="#projects" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">portfolioe</a>
             </li>
             <li class="list-none">
               <a href="#contact" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">kontakt</a>
