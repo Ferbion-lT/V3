@@ -11,16 +11,8 @@
                 <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Email">
                 </div>
-                <div class="flex justify-center">
-                    <label class="text-white" for="type">
-                        <select class="bg-[#272d30] w-[370px] lg:w-[400px] h-[35px] rounded-[10px] pl-3" id="type" name="type">
-                            <option value="select">Betreff</option>
-                            <option value="quesions">Fragen</option>
-                            <option value="bewerbung">Bewerbungen</option>
-                            <option value="request">Anfrage</option>
-                            <option value="order">Auftrag</option>
-                        </select>
-                    </label>
+                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
+                    <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Betreff" />
                 </div>
                 <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
                     <input class="bg-[#272d30] rounded-[10px] h-[250px] w-[400px] pl-3" placeholder="Nachricht">
