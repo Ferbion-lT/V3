@@ -1,7 +1,7 @@
 <template class="scroll-smooth">
     <div id="projects" class="bg-[#272d30]">
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
-            <span class="text-[#01a7ee] uppercase font-bold text-xl">projekte</span>
+            <span class="text-[#01a7ee] uppercase font-bold text-xl">portfolio</span>
         </div>
         <div class="flex flex-col gap-[250px] pt-[250px] sm:flex-row sm:justify-center">
             <div class="flex flex-col gap-4 lg:hover:scale-105 transition duration-500">
