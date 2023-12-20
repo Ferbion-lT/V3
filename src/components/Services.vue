@@ -22,9 +22,6 @@
                         </span>
                     </div>
                 </div>
-                <a href="#contact"><div class="bg-[#e69700] rounded-[15px] h-[50px] w-[150px] text-2xl text-[#272d30] flex items-center justify-center lg:hover:scale-110 hover:text-white transition duration-150">
-                    <span class="font-bold uppercase">Erstellen</span>
-                </div></a>
             </div>
             <div class="flex flex-col gap-[50px] items-center lg:hover:scale-110 duration-300 transition">
                 <div class="bg-[#272d30] rounded-[15px] text-center h-[400px] w-[300px] flex flex-col items-center justify-center gap-10">
@@ -41,9 +38,6 @@
                         </span>
                     </div>
                 </div>
-                <a href="#contact"><div class="bg-[#e69700] rounded-[15px] h-[50px] w-[125px] text-2xl text-[#272d30] flex items-center justify-center lg:hover:scale-110 hover:text-white transition duration-150">
-                    <span class="font-bold uppercase">Update</span>
-                </div></a>
             </div>
         </div>
     </div>
