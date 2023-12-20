@@ -5,18 +5,20 @@
         </div>
         <div class="flex flex-col-reverse gap-[500px] sm:flex-row">
             <div class="flex flex-col gap-[35px] pt-[150px] sm:pl-[100px]">
-                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
-                    <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Vor- und Nachname">
-                </div>
-                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
-                    <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Email">
-                </div>
-                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
-                    <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Betreff" />
-                </div>
-                <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
-                    <input class="bg-[#272d30] rounded-[10px] h-[250px] w-[400px] pl-3" placeholder="Nachricht">
-                </div>
+                <form class="flex flex-col gap-[35px]">
+                    <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
+                        <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Vor- und Nachname">
+                    </div>
+                    <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
+                        <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Email">
+                    </div>
+                    <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
+                        <input class="bg-[#272d30] rounded-[10px] h-[35px] w-[400px] pl-3" placeholder="Betreff" />
+                    </div>
+                    <div class="flex justify-center transition duration-300 lg:hover:scale-110 hover:text-white">
+                        <input class="bg-[#272d30] rounded-[10px] h-[250px] w-[400px] pl-3" placeholder="Nachricht">
+                    </div>
+                </form>
                 <div class="flex justify-center">
                     <a href="#"><div class="bg-[#e69700] rounded-[15px] text-center w-[200px] h-[30px] flex justify-center items-center text-black text-xl transition duration-150 hover:scale-110 hover:text-white">Datein anhängen</div></a>
                 </div>
