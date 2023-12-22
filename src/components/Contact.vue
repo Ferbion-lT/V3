@@ -1,5 +1,5 @@
 <template class="scroll-smooth">
-    <div id="contact" class="bg-[#191d1e] pb-[250px]">
+    <div id="contact" class="bg-[#000000] pb-[250px]">
         <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
             <span class="text-[#01a7ee] uppercase font-bold text-xl">contact</span>
         </div>
