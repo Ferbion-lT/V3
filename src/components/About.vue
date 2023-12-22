@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-24 sm:pt-32 bg-[#000000] text-white">
+    <div class="pt-16 sm:pt-32 bg-[#000000] text-white">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-3xl lg:text-center">
                 <h2 class="text-base font-semibold leading-7 text-[#01a7ee]">Unsere Leistungen</h2>

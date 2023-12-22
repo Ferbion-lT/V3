@@ -1,57 +1,53 @@
-<template class="scroll-smooth">
-    <div id="projects" class="bg-[#272d30]">
-        <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
-            <span class="text-[#01a7ee] uppercase font-bold text-xl">portfolio</span>
-        </div>
-        <div class="flex flex-col gap-[250px] pt-[250px] sm:flex-row sm:justify-center">
-            <div class="flex flex-col gap-4 lg:hover:scale-105 transition duration-500">
-                <div class="text-center">
-                    <span class="text-white font-bold text-4xl uppercase">M&M Handwerk</span>
-                </div>
-                <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/handwerk.png" class="rounded-[15px]"></div>
-                </div>
-                <div class="flex justify-center pt-10">
-                    <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
-                </div>
+<template>
+    <div class="bg-[#000000] text-white overflow-hidden py-14 pb-20">
+        <div class="mx-auto px-4 py-5 sm:px-6 max-w-7xl">
+            <div class="max-w-3xl">
+                <h2 class="font-semibold">Unsere Arbeit</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Portfolio</p>
+                <p class="mt-4 text-zinc-400">
+                    Endecken Sie Beispiele unserer bisherigen Aufträge und gewinnen Sie einen 
+                    Eindruck von der Qualität, welche Sie von uns erwarten können.
+                </p>
             </div>
-            <div class="flex flex-col gap-4 lg:hover:scale-105 transition duration-500">
-                <div class="text-center">
-                    <span class="text-white font-bold text-4xl uppercase">Ben's Burger</span>
-                </div>
-                <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/bensburger.png" class="rounded-[15px]"></div>
-                </div>
-                <div class="flex justify-center pt-10">
-                    <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
-                </div>
-            </div>
-        </div>
-        <div class="pt-[250px] flex justify-center">
-            <span class="text-[#01a7ee] font-bold text-4xl text-center">Über 6 Jahre <span class="text-white">Web <br>Erfahrung</span></span>
-        </div>
-        <div class="pt-[100px flex flex-col justify-center gap-[250px] pt-[250px] pb-[200px] sm:flex-row">
-            <div class="flex flex-col gap-4 lg:hover:scale-105 transition duration-500">
-                <div class="text-center">
-                    <span class="text-white font-bold text-4xl uppercase">Karl08</span>
-                </div>
-                <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/karl08.png" class="rounded-[15px]"></div>
-                </div>
-                <div class="flex justify-center pt-10">
-                    <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
-                </div>
-            </div>
-            <div class="flex flex-col gap-4 lg:hover:scale-105 transition duration-500">
-                <div class="text-center">
-                    <span class="text-white font-bold text-4xl uppercase">xyzcraft</span>
-                </div>
-                <div class="flex justify-center">
-                    <div class="rounded-[15px] h-[150px] w-[300px]"><img src="../assets/webPrev/karl08.png" class="rounded-[15px]"></div>
-                </div>
-                <div class="flex justify-center pt-10">
-                    <a><div class="bg-[#e69700] rounded-[15px] text-center w-[150px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-2xl lg:hover:scale-110 hover:text-white transition duration-150">besuchen</div></a>
-                </div>
+            <div class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16">
+                <a class="group mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 lg:flex items-center" href="">
+                    <div>
+                        <div class="text-xl font-bold">M&M Handwerk</div>
+                        <div class="text-zinc-400 w-72">
+                            <div class="mt-2">Website für ein Handwerksunternehmen mit Kontaktformular</div>
+                        </div>
+                    </div>
+                    <div class="lg:flex lg:space-x-6 space-x-0 overscroll-x-auto pl-16">
+                        <div class="hidden lg:block">
+                            <img class="rounded-xl" height="700" width="225" src="../assets/stonks.png" />
+                        </div>
+                        <div class="hidden lg:block">
+                            <img class="rounded-xl" height="700" width="225" src="../assets/stonks.png" />
+                        </div>
+                        <div class="hidden lg:block">
+                            <img class="rounded-xl" height="700" width="225" src="../assets/stonks.png" />
+                        </div>
+                    </div>
+                </a>
+                <a class="group mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 lg:flex items-center" href="">
+                    <div>
+                        <div class="text-xl font-bold">Ben's Burger</div>
+                        <div class="text-zinc-400 w-72">
+                            <div class="mt-2">Webseite für ein Burgerunternehmen</div>
+                        </div>
+                    </div>
+                    <div class="lg:flex lg:space-x-6 space-x-0 overscroll-x-auto pl-16">
+                        <div class="hidden lg:block">
+                            <img class="rounded-xl" height="700" width="225" src="../assets/stonks.png" />
+                        </div>
+                        <div class="hidden lg:block">
+                            <img class="rounded-xl" height="700" width="225" src="../assets/stonks.png" />
+                        </div>
+                        <div class="hidden lg:block">
+                            <img class="rounded-xl" height="700" width="225" src="../assets/stonks.png" />
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

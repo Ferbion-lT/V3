@@ -1,5 +1,5 @@
 <template class="scroll-smooth">
-  <div id="start" class="h-screen bg-[#000000]">
+  <div id="start" class="bg-[#000000] text-white">
         <header class=" bg-zinc-950 border-b-4 border-zinc-900 sm:flex sm:justify-center pt-10">
         <div class="flex pl-[7.5%] px-4 py-3 sm:p-0">
           <div class="sm:hidden">
@@ -16,54 +16,63 @@
             <div class="">
             <ul class="flex flex-col sm:flex-row gap-10 sm:pr-[150px]">
             <li class="list-none">
-              <a href="#start" class="text-[#00a8f0] uppercase cursor-pointer">start</a>
+              <a href="#start" class="text-[#00a8f0] text-lg font-semibold leading-6">Home</a>
             </li>
             <li class="list-none">
-              <a href="#about" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">über uns</a>
+              <a href="#about" class="text-lg font-semibold leading-6">Über uns</a>
             </li>
             <li class="list-none ">
-              <a href="#services" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">dienste</a>
+              <a href="#services" class="text-lg font-semibold leading-6">Dienste</a>
             </li>
           </ul>
         </div>
-        <div class="hidden sm:block relative mt-[-1.6%]">
+        <div class="hidden sm:block relative mt-[-3%]">
           <img class="h-[90px] w-[190px] lg:hover:scale-110 duration-300 transition" src="../assets/logo_transparent.png"> 
         </div>
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
             <li class="list-none">
-              <a href="#projects" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">portfolio</a>
+              <a href="#projects" class="text-lg font-semibold leading-6">Portfolio</a>
             </li>
             <li class="list-none">
-              <a href="#contact" class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">kontakt</a>
+              <a href="#contact" class="text-lg font-semibold leading-6">Kontakt</a>
             </li>
             <li class="list-none">
-              <a class="text-white uppercase cursor-pointer hover:text-[#00a8f0] duration-150 transition">impressum</a>
+              <a class="text-lg font-semibold leading-6">Impressum</a>
             </li>
           </ul>
           </div>
           </div>
         </nav>
       </header>
-       <div class="flex mt-[7%] ml-[7.5%]">
-        <div class="flex flex-col gap-6">
-        <div>
-          <h2 class="text-white font-bold text-5xl">Sie brauchen eine <span class="text-[#00a8f0]">Website?</span><br>Wir helfen Ihnen!</h2>
+      <div class="relative">
+        <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+          <div class="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
+            <div class="mx-auto max-w-2xl lg:mx-0">
+              <div class="mt-24 text-4xl font-bold tracking-tight sm:mt-10 sm:text-6xl">
+                <h1>Wir erstellen</h1>
+                <h1>professionelle Websites</h1>
+              </div>
+              <div class="mt-10 flex items-center gap-x-6">
+                <a class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white" href="">
+                  Textidee?
+                </a>
+                <a class="text-lg font-semibold leading-6" href="">
+                  Mehr erfahren
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
+            <img class=" aspect-[3/2] w-full object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full" 
+            height="2180" style="color: transparent;"
+            src="../assets/Mockup.png" />
+          </div>
         </div>
-        <div>
-          <span class="text-white text-xl mt-5">Bereits über <span class="text-[#00a8f0]">+80 </span>glückliche Kunden!</span>
-        </div>
-        <div class="">
-        <div class="flex ">
-          <a href="#about"><button class="bg-[#e69700] uppercase rounded-[15px] w-[330px] lg:w-[375px] h-[50px] text-3xl font-bold mt-10 lg:hover:scale-110 hover:text-white transition duration-300">Schauen Sie sich um</button></a>
-        </div>
-       </div>
-       </div>
-       <div class="absolute ml-[20%] mt-[-5%]">
-        <img class="hidden lg:h-[1000px] lg:w-[2000px] lg:block" src="../assets/Mockup3.png">
-       </div>
-       </div>
       </div>
+  </div>
+    
 </template>
 
 <script>

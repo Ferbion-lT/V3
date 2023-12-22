@@ -9,8 +9,7 @@
 </script>
 
 <template>
-    <Navbar />
-    <Sidebar />
+    <Navbar/>
     <About />
     <Services />
     <Projects />
