@@ -1,6 +1,6 @@
 <template class="scroll-smooth">
-  <div id="start" class="h-screen bg-[#272d30]">
-        <header class="bg-[#272d30] sm:flex sm:justify-center pt-10">
+  <div id="start" class="h-screen bg-[#000000]">
+        <header class=" bg-zinc-950 border-b-4 border-zinc-900 sm:flex sm:justify-center pt-10">
         <div class="flex pl-[7.5%] px-4 py-3 sm:p-0">
           <div class="sm:hidden">
             <button @click="isOpen = !isOpen" type="button" class="block text-white">
@@ -27,7 +27,7 @@
           </ul>
         </div>
         <div class="hidden sm:block relative mt-[-1.6%]">
-          <img class="h-[90px] w-[190px] lg:hover:scale-110 duration-300 transition" src="../assets/Logo.png"> 
+          <img class="h-[90px] w-[190px] lg:hover:scale-110 duration-300 transition" src="../assets/logo_transparent.png"> 
         </div>
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
