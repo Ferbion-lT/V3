@@ -136,8 +136,9 @@
     </div>
     <div class="bg-[#191d1e] flex justify-center pt-10 gap-[35%] pb-[75px]">
         <div class="flex flex-col justify-center">
-            <div class="border-l-2 border-[#01a7ee] pl-4 transition duration-300 lg:hover:scale-110">
-                <ul>
+            <div class="transition duration-300 lg:hover:scale-110">
+                <h3 class="text-white font-semibold leading-8 text-xl pb-4">Rechtliches</h3>
+                <ul class="border-l-2 border-[#01a7ee] pl-4">
                     <li class="list-none">
                         <a class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee] cursor-pointer" v-on:click="impressum">Impressum</a>
                     </li>
@@ -154,8 +155,9 @@
             </div>
         </div>
         <div class="flex flex-col justify-center">
-            <div class="border-r-2 border-[#01a7ee] pr-4 transition duration-300 lg:hover:scale-110">
-                <ul>
+            <div class="transition duration-300 lg:hover:scale-110">
+                <h3 class="text-white font-semibold leading-8 text-xl pb-4">Webseite</h3>
+                <ul class="border-r-2 border-[#01a7ee] pr-4">
                     <li class="list-none">
                         <a href="#start" class="text-[#515151] underline text-lg transition duration-150 lg:hover:scale-110 hover:text-[#01a7ee]">Start</a>
                     </li>
