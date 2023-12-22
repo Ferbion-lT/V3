@@ -1,78 +1,68 @@
-<template class="scroll-smooth">
-    <div id="about" class="bg-[#272d30] pb-[100px] overflow-hidden">
-        <div class="pt-[50px] flex justify-center sm:pl-[100px] sm:block">
-            <span class="text-[#01a7ee] uppercase font-bold text-xl">über uns</span>
-        </div>   
-        <div class="transition duration-300 flex flex-col justify-center gap-[500px] sm:flex-row lg:scale-90 lg:hover:scale-95">
-            <div class="flex flex-col justify-center">
-                <div class="pt-[50px] text-left">
-                    <span class="text-white font-bold text-4xl">Ein Team hinter dem<br><span class="text-[#01a7ee]">Freundschaft </span>steht</span>
-                </div>
-                <div class="pt-[50px] text-left">
-                    <span class="text-white text-xl">Seit 2019 sind wir in den Welten der Webentwicklung und des Webdesign untwegs.
-                    Wenn Sie mehr erfahren möchtest, freuen wir
-                    uns auf Ihre Kontaktaufnahme!
-                </span>
-            </div>
-            <div class="flex justify-center pt-[75px]">
-                <a href="#contact"><div class="transition duration-300 bg-[#e69700] rounded-[15px] text-center w-[175px] h-[40px] flex justify-center items-center uppercase text-black font-bold text-3xl lg:hover:scale-110 hover:text-white">Kontakt</div></a>
-            </div>
-        </div>
-            <div class="flex flex-col gap-10 pt-[75px] sm:flex-row">
-                <div class="flex justify-center">
-                    <div class="w-[300px] rounded-[15px] flex justify-center flex-col lg:hover:scale-110 duration-300 transition">
-                        <div class="h-[300px] rounded-t-[15px] bg-[#2e2e2e] text-center flex items-center">
-                            <span class="text-[#adadad] text-2xl font-bold uppercase text-center">images comming soon...</span>
-                        </div>
-                            <div class="bg-[#2e2e2e] rounded-b-[15px] h-[50px] text-center flex items-center justify-center">
-                            <span class="text-[#01a7ee] font-bold text-3xl">Linus</span>
-                        </div>
-                        <div class="ml-[10px] mt-4 text-center border-l-4 border-l-[#01a7ee]">
-                            <span class="text-white">Seit 2017 Html, Css und Javascript</span><br>
-                            <span class="text-white text-left">Seit 2018 Vue und React</span>
-                        </div>
+<template>
+    <div class="pt-24 sm:pt-32 bg-[#000000] text-white">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-3xl lg:text-center">
+                <h2 class="text-base font-semibold leading-7 text-[#01a7ee]">Unsere Leistungen</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+                    Alles was eine professionelle Webseite braucht.
+                </p>
+                <p class="mt-6 text-lg leading-8 text-zinc-400 text-justify">
+                    Wir sind eine Web-Agentur bestehend aus zwei Personen, die professionelle Websites nicht nur,
+                    designet und SEO maximiert, sondern auch Websites entwickelt. Bei uns haben Sie die Möglichkeit, 
+                    eine individuell gestaltete Website zu einem fairen Preis erstellen zu lassen. Unsere Lösungen
+                    sind zudem auf Nachhaltigkeit und Zukunftsfähigkeit ausgerichtet.
+                </p>
+            </div>    
+            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                    <div class="flex flex-col outline outline-1 outline-zinc-800 rounded-lg p-8">
+                        <dt class="flex items-center gap-x-3 text-base font-semibold leading-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-5 w-5 flex-none text-[#01a7ee]">
+                                <path d="M2 4.25A2.25 2.25 0 014.25 2h2.5A2.25 2.25 0 019 4.25v2.5A2.25 2.25 0 016.75 9h-2.5A2.25 2.25 0 012 6.75v-2.5zM2 13.25A2.25 2.25 0 014.25
+                                11h2.5A2.25 2.25 0 019 13.25v2.5A2.25 2.25 0 016.75 18h-2.5A2.25 2.25 0 012 15.75v-2.5zM11 4.25A2.25 2.25 0 0113.25 2h2.5A2.25 2.25 0 0118 4.25v2.5A2.25
+                                2.25 0 0115.75 9h-2.5A2.25 2.25 0 0111 6.75v-2.5zM15.25 11.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z">
+                                </path>
+                            </svg>   
+                            Web-Design  
+                        </dt>   
+                        <dd class="mt-4 flex flex-auto flex-col text-base leading-7">
+                            <p class="flex-auto">
+                                Hochwertiges und benutzerfreundliches Design für optimales Nutzererlebnis.
+                            </p>
+                        </dd>   
                     </div>
-                </div>
-                <div class="flex justify-center">
-                    <div class="w-[300px] rounded-[15px] lg:hover:scale-110 duration-300 transition">
-                            <div class="h-[300px] rounded-t-[15px] bg-[#2e2e2e] text-center flex items-center">
-                                <span class="text-[#adadad] text-2xl font-bold uppercase text-center">images comming soon...</span>
-                            </div>
-                            <div class="bg-[#2e2e2e] rounded-b-[15px] h-[50px] text-center flex items-center justify-center">
-                            <span class="text-[#01a7ee] font-bold text-3xl">Ben-Luca</span>
-                        </div>
-                        <div class="ml-[10px] mt-4 text-center border-l-4 border-l-[#01a7ee]">
-                            <span class="text-white">Seit 2020 Html, Css</span><br>
-                            <span class="text-white text-left">Seit 2021 Webdesign / UI Design</span>
-                        </div>
+                    <div class="flex flex-col outline outline-1 outline-zinc-800 rounded-lg p-8">
+                        <dt class="flex items-center gap-x-3 text-base font-semibold leading-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-5 w-5 flex-none text-[#01a7ee]">
+                                <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7
+                                 7 0 012 9z" clip-rule="evenodd">
+                                </path>
+                            </svg>   
+                            Suchmaschienenoptimierung
+                        </dt>   
+                        <dd class="mt-4 flex flex-auto flex-col text-base leading-7">
+                            <p class="flex-auto">
+                                SEO gemäß Google-Standars für langfristige Erfolge.
+                            </p>
+                        </dd>   
                     </div>
-                </div>
-            </div>
+                    <div class="flex flex-col outline outline-1 outline-zinc-800 rounded-lg p-8">
+                        <dt class="flex items-center gap-x-3 text-base font-semibold leading-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-5 w-5 text-[#01a7ee]" viewBox="0 0 16 16">
+                                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 
+                                3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147
+                                3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                            </svg>
+                            Web-Entwicklung
+                        </dt>   
+                        <dd class="mt-4 flex flex-auto flex-col text-base leading-7">
+                            <p class="flex-auto">
+                                Hochwertige und moderne Entwicklung Ihrer neuen Webseite.
+                            </p>
+                        </dd>   
+                    </div>
+                </dl>    
+            </div>        
         </div>
-        <div class="transition duration-300 mt-[250px] flex flex-col-reverse justify-center gap-[250px] sm:flex-row lg:hover:scale-110">
-            <div class="flex justify-center">
-                <img src="../assets/stonks.png" class="h-[175px] w-[400px] rounded-[15px]">
-            </div>
-            <div class="flex flex-col gap-8 text-center">
-                <span class="text-white font-bold text-4xl text-center sm:text-right">Bringen Sie ihr Business <br>auf das <span class="text-[#01a7ee] font-bold"> nächste Level</span></span>
-                <span class="text-white text-xl text-center sm:text-right">Sie brauchen neue Kunden oder brauchen einen neuen Look?<br>
-                Wir gestalten Ihre Website modern und interessant!
-                </span>
-            </div>
-        </div>
-        <div class="transition duration-300 mt-[250px] flex flex-col justify-center gap-[250px] sm:flex-row lg:hover:scale-110">
-            <div class="flex flex-col gap-12 text-center">
-                <span class="text-white font-bold text-4xl">Warum Sie uns <span class="text-[#01a7ee]">wählen sollten?</span></span>
-                <div class="flex flex-col gap-4 border-l-2 border-l-[#01a7ee] pl-4 text-center sm:text-left">
-                    <span class="transition duration-300 hover:text-[#01a7ee] text-white text-xl">Mehr als 6 Jahre Erfahrung im Web Development</span>
-                    <span class="transition duration-300 hover:text-[#01a7ee] text-white text-xl">Ein junges und erfahrenes Team</span>
-                    <span class="transition duration-300 hover:text-[#01a7ee] text-white text-xl">Wir sind immer auf dem neusten Stand</span>
-                    <span class="transition duration-300 hover:text-[#01a7ee] text-white text-xl">Zuverlässlich, Respekvoll und Freundlich</span>
-                </div>
-            </div>
-            <div class="flex justify-center">
-                <img src="../assets/handshake.png" class="h-[175px] w-[400px] rounded-[15px]">
-            </div>
-        </div>
-    </div>  
+    </div>
 </template>
