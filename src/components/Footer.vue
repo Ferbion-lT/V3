@@ -1,3 +1,7 @@
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
+
 <template>
     <div class="bg-zinc-950 border-t-4 border-zinc-900 text-white">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
@@ -42,16 +46,16 @@
                             <h3 class="text-sm font-semibold leading-6">Soziale Medien</h3>        
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Instagram</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.instagram.com/ferbion_web/">Instagram</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Youtube</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA">Youtube</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Tiktok</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.tiktok.com/@ferbionweb">Tiktok</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">X / Twitter</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://twitter.com/FerbionWeb">X / Twitter</a>
                                 </li>
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400" href="">Facebook</a>
@@ -62,7 +66,8 @@
                             <h3 class="text-sm font-semibold leading-6">Rechtliches</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Impressum</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="/impressum">Impressum</a>
+                                    
                                 </li>
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400" href="">Datenschutz</a>
