@@ -19,10 +19,10 @@
               <a href="#start" class="text-[#00a8f0] text-lg font-semibold leading-6">Home</a>
             </li>
             <li class="list-none">
-              <a href="#about" class="text-lg font-semibold leading-6">Über uns</a>
+              <a href="#about" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Über uns</a>
             </li>
             <li class="list-none ">
-              <a href="#services" class="text-lg font-semibold leading-6">Dienste</a>
+              <a href="#services" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Dienste</a>
             </li>
           </ul>
         </div>
@@ -32,13 +32,13 @@
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
             <li class="list-none">
-              <a href="#projects" class="text-lg font-semibold leading-6">Portfolio</a>
+              <a href="#projects" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Portfolio</a>
             </li>
             <li class="list-none">
-              <a href="#contact" class="text-lg font-semibold leading-6">Kontakt</a>
+              <a href="#contact" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Kontakt</a>
             </li>
             <li class="list-none">
-              <a class="text-lg font-semibold leading-6">Impressum</a>
+              <a class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Impressum</a>
             </li>
           </ul>
           </div>
@@ -54,10 +54,10 @@
                 <h1>professionelle Websites</h1>
               </div>
               <div class="mt-10 flex items-center gap-x-6">
-                <a class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white" href="">
+                <a class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white hover:scale-105 transition" href="">
                   Textidee?
                 </a>
-                <a class="text-lg font-semibold leading-6" href="">
+                <a class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" href="">
                   Mehr erfahren
                   <span aria-hidden="true">→</span>
                 </a>

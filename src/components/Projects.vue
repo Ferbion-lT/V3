@@ -2,7 +2,7 @@
     <div class="bg-[#000000] text-white overflow-hidden py-14 pb-20">
         <div class="mx-auto px-4 py-5 sm:px-6 max-w-7xl">
             <div class="max-w-3xl">
-                <h2 class="font-semibold">Unsere Arbeit</h2>
+                <h2 class="font-semibold text-[#01a7ee]">Unsere Arbeit</h2>
                 <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Portfolio</p>
                 <p class="mt-4 text-zinc-400">
                     Endecken Sie Beispiele unserer bisherigen Aufträge und gewinnen Sie einen 
