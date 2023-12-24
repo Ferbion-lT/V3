@@ -57,7 +57,7 @@
                 <a class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white" href="">
                   Textidee?
                 </a>
-                <a class="text-lg font-semibold leading-6" href="">
+                <a class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" href="">
                   Mehr erfahren
                   <span aria-hidden="true">→</span>
                 </a>
