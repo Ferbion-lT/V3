@@ -19,16 +19,37 @@
                                 <a href="#start" class="text-[#00a8f0] text-lg font-semibold leading-6">Home</a>
                             </li>
                             <li class="list-none">
-                                <a href="#about" class="text-[#00a8f0] text-lg font-semibold leading-6">Über uns</a>
+                                <a href="#about" class="text-lg font-semibold leading-6 hover:text-[#00a8f0]">Über uns</a>
                             </li>
                             <li class="list-none">
-                                <a href="#services" class="text-[#00a8f0] text-lg font-"
+                                <a href="#services" class="text-lg font-semibold leading-6 hover:text-[#00a8f0]">Dienste</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden sm:block relative mt-[-3%]">
+                        <img class="h-[90px] w-[190px] lg:hover:scale-110 duration-300 transition" src="../assets/logo_transparent.png" />
+                    </div>
+                    <div>
+                        <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
+                            <li class="list-none">
+                                <a href="#projects" class="text-lg font-semibold leading-6 hover:text-[#00a8f0]">Portfolio</a>
+                            </li>
+                            <li class="list-none">
+                                <a href="#contact" class="text-lg font-semibold leading-6 hover:text-[#00a8f0]">Kontakt</a>
+                            </li>
+                            <li class="list-none">
+                                <a href="" class="text-lg font-semibold leading-6 hover:text-[#00a8f0]">Impressum</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
+        <div class="relative">
+            <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+                
+            </div>
+        </div>
     </div> 
 </template>
 
