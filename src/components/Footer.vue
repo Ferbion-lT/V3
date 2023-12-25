@@ -66,8 +66,7 @@ import { RouterLink } from 'vue-router';
                             <h3 class="text-sm font-semibold leading-6">Rechtliches</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    
-                                    <router-link to="/impressum" class="text-sm leading-6 text-zinc-400">Impressum</router-link>
+                                    <a class="text-sm leading-6 text-zinc-400" href="">Impressum</a>
                                 </li>
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400" href="">Datenschutz</a>
