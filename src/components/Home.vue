@@ -47,7 +47,28 @@
         </header>
         <div class="relative">
             <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-                
+                <div class="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
+                    <div class="mx-auto max-w-2xl lg:mx-0">
+                        <div class="mt-24 text-4xl font-bold tracking-tight sm:mt-10 sm:text-6xl">
+                            <h1>Wir erstellen</h1>
+                            <h1>professionelle Websites</h1>
+                        </div>
+                        <div class="mt-10 flex items-center gap-x-6">
+                            <a class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white hover:scale-105 transition" href="">
+                                Textidee?
+                            </a>
+                            <a class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" href="">
+                                Mehr erfahren
+                                <span aria-hidden="true">→</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
+                    <img class="w-full aspect-[3/2] object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+                    height="2180" style="color: transparent;"
+                    src="../assets/Mockup.png" />
+                </div>
             </div>
         </div>
     </div> 
