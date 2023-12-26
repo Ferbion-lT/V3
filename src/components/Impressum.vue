@@ -1,7 +1,7 @@
 <template>
     <body class="bg-[#000000] text-white">
         <div class="bg-[#000000] text-white container mx-auto p-8">
-            <h1 class="text-4xl font-semibold mb-4">Impressum</h1>
+            <h1 class="text-4xl font-semibold mb-4" id="test">Impressum</h1>
             <div class="text-lg">
                 <h2 class="font-semibold mb-2">Angaben gem. § 5 TMG:</h2>
                 <p>Linus Ehle</p>
