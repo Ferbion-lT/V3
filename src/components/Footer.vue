@@ -1,7 +1,3 @@
-<script setup>
-import { RouterLink } from 'vue-router';
-</script>
-
 <template>
     <div class="bg-zinc-950 border-t-4 border-zinc-900 text-white">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
@@ -66,10 +62,10 @@ import { RouterLink } from 'vue-router';
                             <h3 class="text-sm font-semibold leading-6">Rechtliches</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <router-link class="text-sm leading-6 text-zinc-400" to="/impressum">Impressum</router-link>
+                                    <router-link class="text-sm leading-6 text-zinc-400" to="/impressum" v-on:click="impressum_change">Impressum</router-link>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Datenschutz</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="" v-on:click="datenschutz">Datenschutz</a>
                                 </li>
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400" href="">AGB</a>
@@ -82,3 +78,11 @@ import { RouterLink } from 'vue-router';
         </div>
     </div>
 </template>
+
+<script setup>
+import { RouterLink } from 'vue-router';
+
+function impressum_change (event) {
+    document.getElementById("impressum").scrollIntoView({behavior: 'smooth'})
+}
+</script>
