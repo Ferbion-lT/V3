@@ -19,10 +19,10 @@
               <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/'}" to="/">Home</router-link>
             </li>
             <li class="list-none">
-              <a href="#about" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Über uns</a>
+              <a href="#about" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" id="test">Über uns</a>
             </li>
-            <li class="list-none ">
-              <a href="#services" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Dienste</a>
+            <li class="list-none">
+              <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="cookies">Dienste</span>
             </li>
           </ul>
         </div>
@@ -57,4 +57,6 @@ export default {
     }
   },
 }
+
+
 </script>
