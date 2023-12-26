@@ -1,10 +1,12 @@
 <script setup>
 import { RouterView } from 'vue-router';
-import Home from './components/Home.vue'
-import Impressum from './components/Impressum.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
-    <Impressum />
+    <Navbar />
+    <router-view></router-view>
+    <Footer />
 </template>
 
