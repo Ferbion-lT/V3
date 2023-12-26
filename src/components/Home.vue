@@ -27,7 +27,7 @@
             </div>
         </div>
     </div> 
-    <div class="pt-16 sm:pt-32 bg-[#000000] text-white">
+    <div class="pt-16 sm:pt-32 bg-[#000000] text-white" id="leistungen">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-3xl lg:text-center">
                 <h2 class="text-base font-semibold leading-7 text-[#01a7ee]">Unsere Leistungen</h2>
@@ -156,7 +156,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-[#000000] text-white overflow-hidden py-14 pb-20">
+    <div class="bg-[#000000] text-white overflow-hidden py-14 pb-20" id="portfolio">
         <div class="mx-auto px-4 py-5 sm:px-6 max-w-7xl">
             <div class="max-w-3xl">
                 <h2 class="font-semibold text-[#01a7ee]">Unsere Arbeit</h2>

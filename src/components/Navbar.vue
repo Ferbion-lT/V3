@@ -18,11 +18,11 @@
             <li class="list-none">
               <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/'}" to="/">Home</router-link>
             </li>
-            <li class="list-none">
-              <a href="#about" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" id="test">Über uns</a>
+            <li class="list-none">    
+              <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="about_scroll">Über uns</span>
             </li>
-            <li class="list-none">
-              <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="cookies">Dienste</span>
+            <li class="list-none ">
+              <span class="text-lg font-semibold left-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="services_scroll">Leistungen</span>
             </li>
           </ul>
         </div>
@@ -32,10 +32,10 @@
         <div class="">
           <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
             <li class="list-none">
-              <a href="#projects" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Portfolio</a>
+              <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="portfolio_scroll">Portfolio</span>
             </li>
             <li class="list-none">
-              <a href="#contact" class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition">Kontakt</a>
+              <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/contact'}" to="/contact">Kontakt</router-link>
             </li>
             <li class="list-none">
               <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/impressum'}" to="/impressum">Impressum</router-link>
@@ -59,4 +59,18 @@ export default {
 }
 
 
+</script>
+
+<script setup>
+function about_scroll (event) {
+  document.getElementById("leistungen").scrollIntoView({behavior: 'smooth'})
+}
+
+function services_scroll (event) {
+  document.getElementById("services").scrollIntoView({behavior: 'smooth'})
+}
+
+function portfolio_scroll (event) {
+  document.getElementById("portfolio").scrollIntoView({behavior: 'smooth'})
+}
 </script>
