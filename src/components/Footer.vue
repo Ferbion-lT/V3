@@ -6,7 +6,7 @@
                 <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                     <div class="md:grid md:grid-cols-2 md:gap-8">
                         <div>
-                            <h3 class="text-sm font-semibold leading-6">Webseite</h3>
+                            <h3 class="text-sm font-semibold leading-6">Website</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400" href="">Start</a>
