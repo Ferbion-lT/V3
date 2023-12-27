@@ -132,7 +132,7 @@
                                 <h3 class="">Suchmaschienenoptimierung</h3>  
                             </dt>   
                             <dd class="mt-2 text-zinc-400 hover:no-underline">
-                                Optimierung Ihrer Webseite für Suchmaschienen, um die Online Sichtbarkeit zu erhöhen.
+                                Optimierung Ihrer Website für Suchmaschienen, um die Online Sichtbarkeit zu erhöhen.
                             </dd>
                         </div>
                     </a>
@@ -148,7 +148,7 @@
                                 <h3 class="">Web-Entwicklung</h3>  
                             </dt>   
                             <dd class="mt-2 text-zinc-400 hover:no-underline">
-                                Hochwertige und moderne Entwicklung Ihrer neuen Webseite.
+                                Hochwertige und moderne Entwicklung Ihrer neuen Website.
                             </dd>
                         </div>
                     </a>
