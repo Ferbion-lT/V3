@@ -42,19 +42,19 @@
                             <h3 class="text-sm font-semibold leading-6">Soziale Medien</h3>        
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.instagram.com/ferbion_web/">Instagram</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.instagram.com/ferbion_web/ target="_blank"">Instagram</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA">Youtube</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA" target="_blank">Youtube</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.tiktok.com/@ferbionweb">Tiktok</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.tiktok.com/@ferbionweb" target="_blank">Tiktok</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://twitter.com/FerbionWeb">X / Twitter</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://twitter.com/FerbionWeb" target="_blank">X / Twitter</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Facebook</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="" target="_blank">Facebook</a>
                                 </li>
                             </ul>       
                         </div>
