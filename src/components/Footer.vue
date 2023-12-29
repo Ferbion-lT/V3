@@ -42,7 +42,7 @@
                             <h3 class="text-sm font-semibold leading-6">Soziale Medien</h3>        
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.instagram.com/ferbion_web/ target="_blank"">Instagram</a>
+                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.instagram.com/ferbion_web/ target=" target="_blank">Instagram</a>
                                 </li>
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA" target="_blank">Youtube</a>
@@ -65,7 +65,7 @@
                                     <router-link class="text-sm leading-6 text-zinc-400" to="/impressum" v-on:click="impressum_change">Impressum</router-link>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="" v-on:click="datenschutz">Datenschutz</a>
+                                    <router-link class="text-sm leading-6 text-zinc-400" to="/datenschutz">Datenschutz</router-link>
                                 </li>
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400" href="">AGB</a>
