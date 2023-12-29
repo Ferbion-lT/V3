@@ -18,7 +18,7 @@
                                     <span class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" v-on:click="services_scroll">Leistungen</span>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" href="">Kontakt</a>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" to="/contact">Kontakt</router-link>
                                 </li>
                             </ul>
                         </div>
