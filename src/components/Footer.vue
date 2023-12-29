@@ -9,16 +9,16 @@
                             <h3 class="text-sm font-semibold leading-6">Website</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Start</a>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" v-on:click="start_scroll">Start</span>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Portfolio</a>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" v-on:click="portfolio_scroll">Portfolio</span>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Leistungen</a>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" v-on:click="services_scroll">Leistungen</span>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Kontakt</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" href="">Kontakt</a>
                                 </li>
                             </ul>
                         </div>
@@ -82,7 +82,13 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 
-function impressum_change (event) {
-    document.getElementById("impressum").scrollIntoView({behavior: 'smooth'})
+function start_scroll (event) {
+    document.getElementById("start").scrollIntoView({behavior: 'smooth'});
+}
+function services_scroll (event) {
+    document.getElementById("services").scrollIntoView({behavior: 'smooth'});
+}
+function portfolio_scroll (event) {
+    document.getElementById("portfolio").scrollIntoView({behavior: 'smooth'});
 }
 </script>
