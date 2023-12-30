@@ -9,16 +9,16 @@
                             <h3 class="text-sm font-semibold leading-6">Website</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <span class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" v-on:click="start_scroll">Start</span>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="start_scroll">Start</span>
                                 </li>
                                 <li>
-                                    <span class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" v-on:click="portfolio_scroll">Portfolio</span>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="portfolio_scroll">Portfolio</span>
                                 </li>
                                 <li>
-                                    <span class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" v-on:click="services_scroll">Leistungen</span>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="services_scroll">Leistungen</span>
                                 </li>
                                 <li>
-                                    <router-link class="text-sm leading-6 text-zinc-400 hover:cursor-pointer" to="/contact">Kontakt</router-link>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" to="/contact">Kontakt</router-link>
                                 </li>
                             </ul>
                         </div>
@@ -26,13 +26,13 @@
                             <h3 class="text-sm font-semibold leading-6">Support</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Zahlungsmethoden</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Zahlungsmethoden</a>
                                 </li>          
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Sitemap</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Sitemap</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Status</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Status</a>
                                 </li>
                             </ul>
                         </div>
@@ -42,19 +42,19 @@
                             <h3 class="text-sm font-semibold leading-6">Soziale Medien</h3>        
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.instagram.com/ferbion_web/ target=" target="_blank">Instagram</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://www.instagram.com/ferbion_web/ target=" target="_blank">Instagram</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA" target="_blank">Youtube</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA" target="_blank">Youtube</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.tiktok.com/@ferbionweb" target="_blank">Tiktok</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://www.tiktok.com/@ferbionweb" target="_blank">Tiktok</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://twitter.com/FerbionWeb" target="_blank">X / Twitter</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://twitter.com/FerbionWeb" target="_blank">X / Twitter</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="" target="_blank">Facebook</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="" target="_blank">Facebook</a>
                                 </li>
                             </ul>       
                         </div>
@@ -62,13 +62,13 @@
                             <h3 class="text-sm font-semibold leading-6">Rechtliches</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <router-link class="text-sm leading-6 text-zinc-400" to="/impressum" v-on:click="impressum_change">Impressum</router-link>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" to="/impressum" v-on:click="impressum_change">Impressum</router-link>
                                 </li>
                                 <li>
-                                    <router-link class="text-sm leading-6 text-zinc-400" to="/datenschutz">Datenschutz</router-link>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" to="/datenschutz">Datenschutz</router-link>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">AGB</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">AGB</a>
                                 </li>
                             </ul>
                         </div>
