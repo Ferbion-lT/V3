@@ -34,7 +34,7 @@
                                 <div class="sm:col-span-2">
                                     <div class="flex justify-between text-sm leading-6">
                                         <label class="block text-sm font-semibold leading-6" for="message">Ein paar Worte über Ihre Anfrage</label>
-                                        <p id="contact_description" class="text-zinc-400">Max 500 characters</p>
+                                        <p id="contact_description" class="text-zinc-400">Max 1500 characters</p>
                                     </div>
                                     <div class="mt-2.5">
                                         <textarea id="message" class="block w-full rounded-md bg-zinc-950 border-2 border-zinc-900 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-zinc-300 placeholder:text-zinc-400 focus:ring-2 focus:ring-inset focus:ring-[#00a8f0] sm:text-sm sm:leading-6"
