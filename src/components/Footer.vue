@@ -1,7 +1,3 @@
-<script setup>
-import { RouterLink } from 'vue-router';
-</script>
-
 <template>
     <div class="bg-zinc-950 border-t-4 border-zinc-900 text-white">
         <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
@@ -10,19 +6,19 @@ import { RouterLink } from 'vue-router';
                 <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                     <div class="md:grid md:grid-cols-2 md:gap-8">
                         <div>
-                            <h3 class="text-sm font-semibold leading-6">Webseite</h3>
+                            <h3 class="text-sm font-semibold leading-6">Website</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Start</a>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="start_scroll">Start</span>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Portfolio</a>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="portfolio_scroll">Portfolio</span>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Leistungen</a>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="services_scroll">Leistungen</span>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Kontakt</a>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" to="/contact">Kontakt</router-link>
                                 </li>
                             </ul>
                         </div>
@@ -30,13 +26,13 @@ import { RouterLink } from 'vue-router';
                             <h3 class="text-sm font-semibold leading-6">Support</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Zahlungsmethoden</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Zahlungsmethoden</a>
                                 </li>          
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Sitemap</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Sitemap</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Status</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Status</a>
                                 </li>
                             </ul>
                         </div>
@@ -46,19 +42,19 @@ import { RouterLink } from 'vue-router';
                             <h3 class="text-sm font-semibold leading-6">Soziale Medien</h3>        
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.instagram.com/ferbion_web/">Instagram</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://www.instagram.com/ferbion_web/ target=" target="_blank">Instagram</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA">Youtube</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA" target="_blank">Youtube</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://www.tiktok.com/@ferbionweb">Tiktok</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://www.tiktok.com/@ferbionweb" target="_blank">Tiktok</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="https://twitter.com/FerbionWeb">X / Twitter</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://twitter.com/FerbionWeb" target="_blank">X / Twitter</a>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Facebook</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="" target="_blank">Facebook</a>
                                 </li>
                             </ul>       
                         </div>
@@ -66,13 +62,13 @@ import { RouterLink } from 'vue-router';
                             <h3 class="text-sm font-semibold leading-6">Rechtliches</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <router-link class="text-sm leading-6 text-zinc-400" to="/impressum">Impressum</router-link>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" to="/impressum" v-on:click="impressum_change">Impressum</router-link>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">Datenschutz</a>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" to="/datenschutz">Datenschutz</router-link>
                                 </li>
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400" href="">AGB</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">AGB</a>
                                 </li>
                             </ul>
                         </div>
@@ -82,3 +78,17 @@ import { RouterLink } from 'vue-router';
         </div>
     </div>
 </template>
+
+<script setup>
+import { RouterLink } from 'vue-router';
+
+function start_scroll (event) {
+    document.getElementById("start").scrollIntoView({behavior: 'smooth'});
+}
+function services_scroll (event) {
+    document.getElementById("services").scrollIntoView({behavior: 'smooth'});
+}
+function portfolio_scroll (event) {
+    document.getElementById("portfolio").scrollIntoView({behavior: 'smooth'});
+}
+</script>

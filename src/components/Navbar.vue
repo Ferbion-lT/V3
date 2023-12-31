@@ -12,9 +12,9 @@
           </div>
         </div>
         <nav :class="isOpen ? 'flex' : 'hidden'" class="flex-col px-2 pt-2 pb-4 sm:flex justify-center sm:p-0">
-          <div class="flex flex-col pl-[7.5%] gap-10 sm:flex-row sm:pl-0 sm:justify-center">
+          <div class="flex flex-col pl-[7.5%] gap-10 md:flex-row sm:pl-0 sm:justify-center">
             <div class="">
-            <ul class="flex flex-col sm:flex-row gap-10 sm:pr-[150px]">
+            <ul class="flex flex-col sm:flex-row gap-10 md:pr-[100px]">
             <li class="list-none">
               <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/'}" to="/">Home</router-link>
             </li>
@@ -26,11 +26,11 @@
             </li>
           </ul>
         </div>
-        <div class="hidden sm:block relative mt-[-3%]">
+        <div class="hidden md:block md:justify-center relative mt-[-3%]">
           <img class="h-[90px] w-[190px] lg:hover:scale-110 duration-300 transition" src="../assets/logo_transparent.png"> 
         </div>
         <div class="">
-          <ul class="flex flex-col sm:flex-row gap-10 sm:pl-[150px]">
+          <ul class="flex flex-col sm:flex-row gap-10 md:pl-[100px]">
             <li class="list-none">
               <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="portfolio_scroll">Portfolio</span>
             </li>

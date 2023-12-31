@@ -43,9 +43,11 @@
                                 </div>
                             </div>
                             <div class="flex items-center mt-10">
-                                <button id="btn_privacy" class="bg-zinc-200 relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-[#00a8f0] focus:ring-offset-2" role="switch" type="button" tabindex="0" aria-checked="false" data-headlessui-state="" v-on:click="button_clicked">
-                                    <span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out"></span>
-                                </button>
+                                <label class="relative inline-flex items-center cursor-pointer">
+                                    <input type="checkbox" value="" class="sr-only peer" checked>
+                                    <div class="w-11 h-6 rounded-full peer peer-focus:ring-0  bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-[#00a8f0]"></div>
+                                    <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"></span>
+                                </label>
                                 <span class="ml-3 text-sm" id="headlessui-label-:r2:" for="">
                                     <span class="font-medium">Hiermit stimme ich den Datenschutzbestimmungen zu.</span>
                                 </span>

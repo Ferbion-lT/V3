@@ -33,7 +33,7 @@
                     <div>
                         <div class="text-xl font-bold">Ben's Burger</div>
                         <div class="text-zinc-400 w-72">
-                            <div class="mt-2">Webseite für ein Burgerunternehmen</div>
+                            <div class="mt-2">Website für eine Gastronomie</div>
                         </div>
                     </div>
                     <div class="lg:flex lg:space-x-6 space-x-0 overscroll-x-auto pl-16">
