@@ -47,3 +47,14 @@ export default {
   },
 }
 </script>
+<script setup>
+function about_scroll (event) {
+  document.getElementById("leistungen").scrollIntoView({behavior: 'smooth'})
+}
+function services_scroll (event) {
+  document.getElementById("services").scrollIntoView({behavior: 'smooth'})
+}
+function portfolio_scroll (event) {
+  document.getElementById("portfolio").scrollIntoView({behavior: 'smooth'})
+}
+</script>
