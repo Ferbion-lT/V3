@@ -66,3 +66,54 @@
         </div>
     </div>
 </template>
+
+<template>
+    <div class="bg-[#000000] text-white">
+      <div class="flex pl-[7.5%] px-4 py-3 sm:p-0">
+        <div class="md:hidden">
+          <button @click="isOpen = !isOpen" type="button" class="block text-white pt-4 pl-4">
+            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              <path v-if="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+              <path v-if="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <nav :class="isOpen ? 'grid' : 'hidden'" class="hidden md:flex justify-center mx-auto max-w-7xl">
+        <ul class="flex flex-col md:flex-row space-x-8 justify-center items-center max-[884px]:pt-8">
+          <li>
+            <span class="text-lg font-semibold leading-6">Home</span>
+          </li>
+          <li>
+            <span class="text-lg font-semibold leading-6">Über uns</span>
+          </li>
+          <li>
+            <span class="text-lg font-semibold leading-6">Leistungen</span>
+          </li>
+          <div class="hidden min-[884px]:block">
+            <img class="h-[100px]" src="../assets/logo_transparent.png">
+          </div>
+          <li>
+            <span class="text-lg font-semibold leading-6">Portfolio</span>
+          </li>
+          <li>
+            <span class="text-lg font-semibold leading-6">Kontakt</span>
+          </li>
+          <li>
+            <span class="text-lg font-semibold leading-6">Impressum</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    data() {
+      return {
+        isOpen: false,
+      }
+    },
+  }
+  
+  </script>

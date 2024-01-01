@@ -152,6 +152,22 @@
                             </dd>
                         </div>
                     </a>
+                    <a>
+                        <div class="relative pl-9 group">
+                            <dt class="font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="absolute
+                                left-0 top-1 h-5 w-5 text-[#01a7ee]">
+                                    <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0
+                                    01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                                    clip-rule="evenodd"></path>
+                                </svg>
+                                <h3 class="">Hosting Unterstützung</h3>  
+                            </dt>   
+                            <dd class="mt-2 text-zinc-400 hover:no-underline">
+                                Untertützung beim Uploud der Website
+                            </dd>
+                        </div>
+                    </a>
                 </dl>
             </div>
         </div>
