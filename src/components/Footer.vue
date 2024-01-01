@@ -67,9 +67,6 @@
                                 <li>
                                     <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" to="/datenschutz">Datenschutz</router-link>
                                 </li>
-                                <li>
-                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">AGB</a>
-                                </li>
                             </ul>
                         </div>
                     </div>
