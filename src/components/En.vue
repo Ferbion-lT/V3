@@ -32,13 +32,15 @@
             <div class="mx-auto max-w-3xl lg:text-center">
                 <h2 class="text-base font-semibold leading-7 text-[#01a7ee]">Our services</h2>
                 <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                    Alles was eine professionelle Website braucht.
+                    Everything a professional website needs.
                 </p>
                 <p class="mt-6 text-lg leading-8 text-zinc-400 text-justify">
-                    Wir sind eine Web-Agentur bestehend aus zwei Personen. die professionelle Websites nicht nur,
-                    designet und SEO maximiert, sondern auch Websites entwickelt. Bei uns haben Sie die Möglichkeit,
-                    eine individuell gestaltete Website zu einem fairen Preis erstellen zu lassen. Unsere Lösungen
-                    sind zudem auf Nachhaltigkeit und Zukunftsfähigkeit ausgerichtet.
+                    We are a web agency consisting of two people who 
+                    not only designs professional websites and maximizes SEO, but 
+                    also develops websites. With us you have the opportunity to 
+                    individually designed website at a fair price. 
+                    at a fair price. Our solutions are also geared towards sustainability and 
+                    sustainability and future viability. 
                 </p>
             </div>
             <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -55,7 +57,7 @@
                         </dt>
                         <dd class="mt-4 flex flex-auto flex-col text-base leading-7">
                             <p class="flex-auto">
-                                Hochwertiges und benutzerfreundliches Design für optimales Nutzererlebnis.
+                                High-quality and user-friendly design for an optimal user experience.
                             </p>
                         </dd>
                     </div>
@@ -66,11 +68,11 @@
                                  7 0 012 9z" clip-rule="evenodd">
                                 </path>
                             </svg> 
-                            Suchmaschienenoptimierung       
+                            Searchengine optimization    
                         </dt>
                         <dd class="mt-4 flex flex-auto flex-col text-base leading-7">
                             <p class="flex-auto">
-                                SEO gemäß Google-Standarts für langfristige Erfolge.
+                                SEO according to Google standards for long-term success.
                             </p>
                         </dd>
                     </div>
@@ -81,11 +83,11 @@
                                 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147
                                 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
                             </svg>
-                            Web-Entwicklung    
+                            Web-Development  
                         </dt>
                         <dd class="mt-4 flex flex-auto flex-col text-base leading-7">
                             <p class="flex-auto">
-                                Hochwertige und moderne Entwicklung Ihrer neuen Webseite.
+                                High-quality and modern development of your new website.
                             </p>
                         </dd>
                     </div>
@@ -97,10 +99,10 @@
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                 <div>
-                    <h2 class="text-base font-semibold leading-7 text-[#01a7ee]">Web Agentur</h2>
+                    <h2 class="text-base font-semibold leading-7 text-[#01a7ee]">Web Agency</h2>
                     <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Ferbion Web</p>
                     <p class="mt-6 text-base leading-7 text-zinc-400">
-                        Wir bieten Ihnen ein umfassendes Angebot, dass alle Aspekte einer modernen, erfolgreichen Website abdeckt.
+                        We offer you a comprehensive service that covers all aspects of a modern, successful website.
                     </p>
                 </div>
                 <dl class="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-2 lg:gap-y-16">
@@ -116,7 +118,7 @@
                                 <h3 class="">Web-Design</h3>
                             </dt>
                             <dd class="mt-2 text-zinc-400 hover:no-underline">
-                                Moderne, benutzerfreundliche Design, die auf Ihre Wünsche angepasst sind.
+                                Modern, user-friendly designs that are customized to your wishes.
                             </dd>
                         </div>
                     </a>
@@ -129,10 +131,10 @@
                                     01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
                                     clip-rule="evenodd"></path>
                                 </svg>
-                                <h3 class="">Suchmaschienenoptimierung</h3>  
+                                <h3 class="">Searchengine optimization</h3>  
                             </dt>   
                             <dd class="mt-2 text-zinc-400 hover:no-underline">
-                                Optimierung Ihrer Website für Suchmaschienen, um die Online Sichtbarkeit zu erhöhen.
+                                Optimization of your website for search engines to increase online visibility.
                             </dd>
                         </div>
                     </a>
@@ -148,7 +150,7 @@
                                 <h3 class="">Web-Development</h3>  
                             </dt>   
                             <dd class="mt-2 text-zinc-400 hover:no-underline">
-                                Hochwertige und moderne Entwicklung Ihrer neuen Website.
+                                High-quality and modern development of your new website.
                             </dd>
                         </div>
                     </a>
@@ -161,10 +163,10 @@
                                     01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
                                     clip-rule="evenodd"></path>
                                 </svg>
-                                <h3 class="">Hosting Unterstützung</h3>  
+                                <h3 class="">Hosting support</h3>  
                             </dt>   
                             <dd class="mt-2 text-zinc-400 hover:no-underline">
-                                Untertützung beim Uploud der Website
+                                Support with the uploud of the website
                             </dd>
                         </div>
                     </a>
@@ -175,11 +177,11 @@
     <div class="bg-[#000000] text-white overflow-hidden py-14 pb-20" id="portfolio">
         <div class="mx-auto px-4 py-5 sm:px-6 max-w-7xl">
             <div class="max-w-3xl">
-                <h2 class="font-semibold text-[#01a7ee]">Unsere Arbeit</h2>
+                <h2 class="font-semibold text-[#01a7ee]">Our work</h2>
                 <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">Portfolio</p>
                 <p class="mt-4 text-zinc-400">
-                    Endecken Sie Beispiele unserer bisherigen Aufträge und gewinnen Sie einen 
-                    Eindruck von der Qualität, welche Sie von uns erwarten können.
+                    Discover examples of our previous orders and gain an impression of the 
+                    impression of the quality you can expect from us.
                 </p>
             </div>
             <div class="mt-10 space-y-16 border-t border-gray-200 pt-10 sm:mt-16">
@@ -187,7 +189,7 @@
                     <div>
                         <div class="text-xl font-bold">M&M Handwerk</div>
                         <div class="text-zinc-400 w-72">
-                            <div class="mt-2">Website für ein Handwerksunternehmen mit Kontaktformular</div>
+                            <div class="mt-2">Website for a craft business with contact form</div>
                         </div>
                     </div>
                     <div class="lg:flex lg:space-x-6 space-x-0 overscroll-x-auto pl-16">
@@ -206,7 +208,7 @@
                     <div>
                         <div class="text-xl font-bold">Ben's Burger</div>
                         <div class="text-zinc-400 w-72">
-                            <div class="mt-2">Webseite für ein Burgerunternehmen</div>
+                            <div class="mt-2">Website for a burger company</div>
                         </div>
                     </div>
                     <div class="lg:flex lg:space-x-6 space-x-0 overscroll-x-auto pl-16">
