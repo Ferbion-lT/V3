@@ -1,12 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <div class="bg-[#000000] text-white">
-    <nav class="mx-auto max-w-7xl">
-      <ul></ul>
-    </nav>
-  </div>
-</template>
-=======
   <header class="bg-zinc-950 text-white md:flex md:justify-center md:items-center">
     <div class="flex items-center justify-between px-4 pb-4 py-3 sm:p-0">
       <div class="pt-4 pl-4 pb-4 md:hidden">
@@ -41,6 +33,12 @@
           <li>
             <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/impressum'}" to="/impressum">Impressum</router-link>
           </li>
+          <li>
+            <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/'}" to="/">DE</router-link>
+          </li>
+          <li>
+            <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/en'}" to="/en">EN</router-link>
+          </li>
         </ul>
     </nav>
   </header>
@@ -66,4 +64,3 @@ function portfolio_scroll (event) {
   document.getElementById("portfolio").scrollIntoView({behavior: 'smooth'})
 }
 </script>
->>>>>>> 14e4afe8631f74ab1e6f0c590c5de1a9df174e7e
