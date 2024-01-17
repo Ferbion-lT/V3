@@ -35,7 +35,7 @@
           </li>
         </ul>
     </nav>
-  </header>
+  </header> 
 </template>
 
 <script>
