@@ -3,6 +3,7 @@ import Home from '../components/Home.vue'
 import Impressum from '../components/Impressum.vue'
 import Datenschutz from '../components/Datenschutz.vue'
 import Contact from '../components/Contact.vue'
+import En from '../components/En.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '/en',
+      name: 'en',
+      component: En
     }
   ],
   scrollBehavior(to, from, savedPostion) {

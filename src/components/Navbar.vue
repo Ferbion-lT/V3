@@ -11,7 +11,7 @@
       </div>
     </div>
     <nav :class="isOpen ? 'flex' : 'hidden'" class="md:flex">
-      <ul class="flex text-center w-full flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-8 md:justify-center md:items-center max-[884px]:pt-8 pb-4">
+      <ul class="flex text-center w-full flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-8 md:justify-center md:items-center max-[1000px]:pt-8 pb-4">
           <li>
             <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/'}" to="/">Home</router-link>
           </li>
@@ -21,7 +21,7 @@
           <li>
             <span class="text-lg font-semibold left-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="services_scroll">Leistungen</span>
           </li>
-          <div class="hidden min-[884px]:block">
+          <div class="hidden min-[1000px]:block">
             <img class="h-[100px]" src="../assets/logo_transparent.png">
           </div>
           <li>
@@ -32,6 +32,12 @@
           </li>
           <li>
             <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/impressum'}" to="/impressum">Impressum</router-link>
+          </li>
+          <li>
+            <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/'}" to="/">DE</router-link>
+          </li>
+          <li>
+            <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/en'}" to="/en">EN</router-link>
           </li>
         </ul>
     </nav>
