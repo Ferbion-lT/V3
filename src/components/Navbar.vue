@@ -39,6 +39,9 @@
           <li>
             <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/en'}" to="/en">EN</router-link>
           </li>
+          <li>
+            <span class="text-lg font-semibold"> {{ $route }}</span>
+          </li>
         </ul>
     </nav>
   </header> 
