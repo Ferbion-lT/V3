@@ -6,7 +6,7 @@
                     <div class="mx-auto max-w-2xl lg:mx-0">
                         <div class="mt-24 text-4xl font-bold tracking-tight sm:mt-10 sm:text-6xl">
                             <h1>We create</h1>
-                            <h1>professional Websites</h1>
+                            <h1>professional<br> Websites</h1>
                         </div>
                         <div class="mt-10 flex items-center gap-x-6">
                             <a class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white hover:scale-105 transition" href="">
