@@ -20,7 +20,8 @@
             <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] cursor-pointer transition" v-else v-on:click="about_scroll">Über uns</span>
           </li>
           <li>
-            <span class="text-lg font-semibold left-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="services_scroll">Leistungen</span>
+            <span class="text-lg font-semibold left-6 hover:text-[#00a8f0] cursor-pointer transition" v-if="$route.path === '/en'" v-on:click="services_scroll">Services</span>
+            <span class="text-lg font-semibold left-6 hover:text-[#00a8f0] cursor-pointer transition" v-else v-on:click="services_scroll">Leistungen</span>
           </li>
           <div class="hidden min-[1000px]:block">
             <img class="h-[100px]" src="../assets/logo_transparent.png">
@@ -29,7 +30,8 @@
             <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] cursor-pointer transition" v-on:click="portfolio_scroll">Portfolio</span>
           </li>
           <li>
-            <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/contact'}" to="/contact">Kontakt</router-link>
+            <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" v-if="$route.path === '/en'" :class="{'text-[#00a8f0]': $route.path === '/contact'}" to="/contact">Contact</router-link>
+            <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" v-else :class="{'text-[#00a8f0]': $route.path === '/contact'}" to="/contact">Kontakt</router-link>
           </li>
           <li>
             <router-link class="text-lg font-semibold leading-6 hover:text-[#00a8f0]" :class="{'text-[#00a8f0]': $route.path === '/impressum'}" to="/impressum">Impressum</router-link>
