@@ -9,7 +9,8 @@
                             <h3 class="text-sm font-semibold leading-6">Website</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="start_scroll">Start</span>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-if="$route.path === '/en'" v-on:click="start_scroll">Home</span>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-else v-on:click="start_scroll">Start</span>
                                 </li>
                                 <li>
                                     <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="portfolio_scroll">Portfolio</span>
@@ -39,7 +40,8 @@
                     </div>
                     <div class="md:grid md:grid-cols-2 md:gap-8">
                         <div>
-                            <h3 class="text-sm font-semibold leading-6">Soziale Medien</h3>        
+                            <h3 class="text-sm font-semibold leading-6" v-if="$route.path === '/en'">Social Media</h3>
+                            <h3 class="text-sm font-semibold leading-6" v-else>Soziale Medien</h3>        
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="https://www.instagram.com/ferbion_web/ target=" target="_blank">Instagram</a>
