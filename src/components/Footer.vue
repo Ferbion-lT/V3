@@ -27,7 +27,8 @@
                             <h3 class="text-sm font-semibold leading-6">Support</h3>
                             <ul class="mt-6 space-y-4" role="list">
                                 <li>
-                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Zahlungsmethoden</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" v-if="$route.path === '/en'">Paying methods</a>
+                                    <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" v-else href="">Zahlungsmethoden</a>
                                 </li>          
                                 <li>
                                     <a class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition" href="">Sitemap</a>
