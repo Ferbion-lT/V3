@@ -16,10 +16,12 @@
                                     <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="portfolio_scroll">Portfolio</span>
                                 </li>
                                 <li>
-                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-on:click="services_scroll">Leistungen</span>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-if="$route.path === '/en'">Services</span>
+                                    <span class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-else v-on:click="services_scroll">Leistungen</span>
                                 </li>
                                 <li>
-                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" to="/contact">Kontakt</router-link>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" to="/contact" v-if="$route.path === '/en'">Contact</router-link>
+                                    <router-link class="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition hover:cursor-pointer" v-else to="/contact">Kontakt</router-link>
                                 </li>
                             </ul>
                         </div>
