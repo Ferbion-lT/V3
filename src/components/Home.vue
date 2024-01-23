@@ -9,13 +9,13 @@
                             <h1>professionelle Websites</h1>
                         </div>
                         <div class="mt-10 flex items-center gap-x-6">
-                            <a class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white hover:scale-105 transition" href="">
-                                Textidee?
-                            </a>
-                            <a class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" href="">
+                            <router-link class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white font-semibold" to="/contact">
+                                Kontakt
+                            </router-link>
+                            <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" href="" v-on:click="about_scroll">
                                 Mehr erfahren
                                 <span aria-hidden="true">→</span>
-                            </a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
         </div>
     </div> 
     <div class="pt-16 sm:pt-32 bg-[#000000] text-white" id="leistungen">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8 lg:max-w-none">
             <div class="mx-auto max-w-3xl lg:text-center">
                 <h2 class="text-base font-semibold leading-7 text-[#01a7ee]">Unsere Leistungen</h2>
                 <p class="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -226,6 +226,8 @@
     </div>
 </template>
 
-<script>
-
+<script setup>
+function about_scroll (event) {
+  document.getElementById("leistungen").scrollIntoView({behavior: 'smooth'})
+}
 </script>
