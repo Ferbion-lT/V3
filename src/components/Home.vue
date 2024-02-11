@@ -12,7 +12,7 @@
                             <router-link class="bg-[#00a8f0] rounded-full p-2 text-lg px-3 text-white font-semibold" to="/contact">
                                 Kontakt
                             </router-link>
-                            <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition" href="" v-on:click="about_scroll">
+                            <span class="text-lg font-semibold leading-6 hover:text-[#00a8f0] transition cursor-pointer" href="" v-on:click="about_scroll">
                                 Mehr erfahren
                                 <span aria-hidden="true">→</span>
                             </span>
